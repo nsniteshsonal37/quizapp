@@ -9,6 +9,9 @@ from flask import app, request, make_response,Response
 from flask.templating import render_template
 from models import *
 from functools import wraps
+from flask import Flask, render_template, jsonify, request,redirect,flash,session
+from models import *
+
 
 logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
@@ -132,18 +135,9 @@ def loginSucess():
                 return make_response(jsonify({'jwt' : token}), 201)
     return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
 
-#creating admin login page
-@app.route('/quiz')
-def quizPage():
-    app.logger.info('Info level log')
-    app.logger.warning('Warning level log')
-    return render_template('quiz.html')
 
 
-@app.route('/dashboard')
-@token_required
-def dashboard(current_user): # http://127.0.0.1:8000/dashboard?jwt=
-    return render_template('dashboard.html', data=current_user)
+
 
 @app.errorhandler(werkzeug.exceptions.BadRequest)
 def badRequest(e):
@@ -156,6 +150,93 @@ app.register_error_handler(400, badRequest)
 def notFound(e):
     return "Page not found", 404
 app.register_error_handler(404,notFound )
+
+
+# Change color of buttons of the questions which are attempted. 
+def setStatus(qlist):
+    questionAttempt = {}
+
+    for i in session['answers'].keys():
+        questionAttempt[i]=session['answers'][i]
+ 
+    for row in qlist:
+        if str(row.qid) in questionAttempt.keys():
+            row.bcol='green'  
+
+@app.route('/dashboard')
+@token_required
+def dashboard(current_user): # http://127.0.0.1:8000/dashboard?jwt=def index():
+    session['result']=""
+    session['answers'] = {}
+    subjectList=questions.query.with_entities(questions.subject).distinct()
+    return render_template("index.html",subList=subjectList)  
+
+@app.route('/quiz', methods=["POST"])
+def quiz(): 
+    
+    subject= request.form.get('sub')
+    
+    questList=questions.query.filter_by(subject=subject).all()
+    
+    total_marks = 0
+
+    for q in questList:
+        total_marks += q.marks
+
+    # Setting Total Marks in the session.
+    session['total_marks']=total_marks
+
+    question=questions.query.filter_by(subject=subject).first()
+    return render_template("dashboard.html",questList=questList, quest=question) 
+
+# This API is used to render the question when question number button is clicked.   
+@app.route("/showQuest/<string:subject>,<int:qid>")
+def showQuest(subject,qid):
+    questList=questions.query.filter_by(subject=subject).all()
+
+    question=questions.query.filter_by(qid=qid).first()
+
+    setStatus(questList)
+
+    return render_template("dashboard.html",questList=questList, quest=question)  
+    
+# This API will save the answer of every question.
+@app.route('/saveAns',methods=["POST"]) 
+def saveAns():
+    qid=request.form.get('qid')
+    ans=request.form.get('answer')
+    sub=request.form.get('subject')
+
+    res=session['result']
+    res= res+qid+','+ans+','
+    session['result']=res
+    
+    #update the question id and its selected answer in session variable result
+
+    session['answers'][qid] = ans
+
+    questList=questions.query.filter_by(subject=sub).all()
+    setStatus(questList)
+    question=questions.query.filter_by(qid=qid).first()
+    return render_template("dashboard.html",questList=questList, quest=question)  
+
+# This route is basically used to  show the result of the Quiz  
+@app.route("/result")
+def result():
+    #calculate result
+    count=0
+    recv_marks = 0
+
+    for i in session['answers'].keys():
+        question=questions.query.filter_by(qid=i).first()
+        if question.answer == int(session['answers'][i]):
+            count += 1
+            recv_marks += question.marks
+
+    text='You have '+ str(count)+ ' correct questions out of '+ str(len(session['answers']))+ ' questions and marks are' + str(recv_marks) + " out of " + str(session['total_marks']) # set the result statement
+    return render_template("result.html",txt=text) 
+
+
 
 #Check for the docs of error https://flask.palletsprojects.com/en/2.0.x/errorhandling/
 #HTTP Codes https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
