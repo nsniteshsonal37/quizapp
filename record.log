@@ -252,3 +252,193 @@
 2021-12-08 15:30:09,228 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [08/Dec/2021 15:30:09] "GET / HTTP/1.1" 200 -
 2021-12-08 15:30:09,538 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [08/Dec/2021 15:30:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2021-12-08 15:30:09,560 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [08/Dec/2021 15:30:09] "[33mGET /images/logo.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:38:21,871 INFO werkzeug MainThread :  * Running on http://127.0.0.1:2317/ (Press CTRL+C to quit)
+2021-12-08 15:38:21,872 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-08 15:38:22,172 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-08 15:38:22,173 INFO werkzeug MainThread :  * Debugger PIN: 888-017-871
+2021-12-08 15:38:49,180 INFO models Thread-2 : Info level log
+2021-12-08 15:38:49,180 WARNING models Thread-2 : Warning level log
+2021-12-08 15:38:49,185 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/Dec/2021 15:38:49] "GET / HTTP/1.1" 200 -
+2021-12-08 15:38:49,221 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Dec/2021 15:38:49] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-08 15:38:49,222 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Dec/2021 15:38:49] "[33mGET /images/logo.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:38:49,472 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Dec/2021 15:38:49] "[33mGET /static/images/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:38:49,914 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Dec/2021 15:38:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-12-08 15:38:53,481 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Dec/2021 15:38:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:39:55,259 INFO models Thread-8 : Info level log
+2021-12-08 15:39:55,260 WARNING models Thread-8 : Warning level log
+2021-12-08 15:39:55,260 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Dec/2021 15:39:55] "GET / HTTP/1.1" 200 -
+2021-12-08 15:39:55,287 INFO werkzeug Thread-10 : 127.0.0.1 - - [08/Dec/2021 15:39:55] "[33mGET /images/logo.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:39:55,287 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Dec/2021 15:39:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:39:55,294 INFO werkzeug Thread-11 : 127.0.0.1 - - [08/Dec/2021 15:39:55] "[33mGET /static/images/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:45:54,166 INFO werkzeug MainThread :  * Running on http://127.0.0.1:2317/ (Press CTRL+C to quit)
+2021-12-08 15:45:54,167 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-08 15:45:54,468 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-08 15:45:54,468 INFO werkzeug MainThread :  * Debugger PIN: 888-017-871
+2021-12-08 15:45:58,301 INFO models Thread-2 : Info level log
+2021-12-08 15:45:58,301 WARNING models Thread-2 : Warning level log
+2021-12-08 15:45:58,304 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/Dec/2021 15:45:58] "GET / HTTP/1.1" 200 -
+2021-12-08 15:45:58,321 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Dec/2021 15:45:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:45:58,322 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Dec/2021 15:45:58] "GET /static/logo.jpg HTTP/1.1" 200 -
+2021-12-08 15:45:58,330 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Dec/2021 15:45:58] "[33mGET /static/images/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:46:04,902 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Dec/2021 15:46:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:47:02,644 INFO models Thread-7 : Info level log
+2021-12-08 15:47:02,644 WARNING models Thread-7 : Warning level log
+2021-12-08 15:47:02,645 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Dec/2021 15:47:02] "GET / HTTP/1.1" 200 -
+2021-12-08 15:47:02,665 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Dec/2021 15:47:02] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-08 15:47:02,667 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Dec/2021 15:47:02] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:47:02,672 INFO werkzeug Thread-10 : 127.0.0.1 - - [08/Dec/2021 15:47:02] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:47:03,178 INFO models Thread-11 : Info level log
+2021-12-08 15:47:03,178 WARNING models Thread-11 : Warning level log
+2021-12-08 15:47:03,179 INFO werkzeug Thread-11 : 127.0.0.1 - - [08/Dec/2021 15:47:03] "GET / HTTP/1.1" 200 -
+2021-12-08 15:47:03,195 INFO werkzeug Thread-12 : 127.0.0.1 - - [08/Dec/2021 15:47:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:47:03,196 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Dec/2021 15:47:03] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:47:10,765 INFO models Thread-14 : Info level log
+2021-12-08 15:47:10,765 WARNING models Thread-14 : Warning level log
+2021-12-08 15:47:10,766 INFO werkzeug Thread-14 : 127.0.0.1 - - [08/Dec/2021 15:47:10] "GET / HTTP/1.1" 200 -
+2021-12-08 15:47:10,782 INFO werkzeug Thread-15 : 127.0.0.1 - - [08/Dec/2021 15:47:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:47:10,783 INFO werkzeug Thread-16 : 127.0.0.1 - - [08/Dec/2021 15:47:10] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:47:16,043 INFO werkzeug MainThread :  * Running on http://127.0.0.1:2317/ (Press CTRL+C to quit)
+2021-12-08 15:47:16,043 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-08 15:47:16,392 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-08 15:47:16,393 INFO werkzeug MainThread :  * Debugger PIN: 888-017-871
+2021-12-08 15:47:19,240 INFO models Thread-2 : Info level log
+2021-12-08 15:47:19,240 WARNING models Thread-2 : Warning level log
+2021-12-08 15:47:19,242 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/Dec/2021 15:47:19] "GET / HTTP/1.1" 200 -
+2021-12-08 15:47:19,260 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Dec/2021 15:47:19] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-08 15:47:19,262 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Dec/2021 15:47:19] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:47:19,268 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Dec/2021 15:47:19] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:48:44,440 INFO models Thread-6 : Info level log
+2021-12-08 15:48:44,440 WARNING models Thread-6 : Warning level log
+2021-12-08 15:48:44,441 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Dec/2021 15:48:44] "GET / HTTP/1.1" 200 -
+2021-12-08 15:48:44,458 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Dec/2021 15:48:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:48:44,458 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Dec/2021 15:48:44] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:48:44,466 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Dec/2021 15:48:44] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:49:13,940 INFO models Thread-10 : Info level log
+2021-12-08 15:49:13,941 WARNING models Thread-10 : Warning level log
+2021-12-08 15:49:13,941 INFO werkzeug Thread-10 : 127.0.0.1 - - [08/Dec/2021 15:49:13] "GET / HTTP/1.1" 200 -
+2021-12-08 15:49:13,957 INFO werkzeug Thread-11 : 127.0.0.1 - - [08/Dec/2021 15:49:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:49:13,961 INFO werkzeug Thread-12 : 127.0.0.1 - - [08/Dec/2021 15:49:13] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:49:13,967 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Dec/2021 15:49:13] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 15:50:31,613 INFO models Thread-14 : Info level log
+2021-12-08 15:50:31,613 WARNING models Thread-14 : Warning level log
+2021-12-08 15:50:31,616 INFO werkzeug Thread-14 : 127.0.0.1 - - [08/Dec/2021 15:50:31] "GET / HTTP/1.1" 200 -
+2021-12-08 15:50:31,631 INFO werkzeug Thread-15 : 127.0.0.1 - - [08/Dec/2021 15:50:31] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:50:51,415 INFO models Thread-16 : Info level log
+2021-12-08 15:50:51,415 WARNING models Thread-16 : Warning level log
+2021-12-08 15:50:51,417 INFO werkzeug Thread-16 : 127.0.0.1 - - [08/Dec/2021 15:50:51] "GET / HTTP/1.1" 200 -
+2021-12-08 15:50:51,433 INFO werkzeug Thread-17 : 127.0.0.1 - - [08/Dec/2021 15:50:51] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:51:03,148 INFO models Thread-18 : Info level log
+2021-12-08 15:51:03,148 WARNING models Thread-18 : Warning level log
+2021-12-08 15:51:03,150 INFO werkzeug Thread-18 : 127.0.0.1 - - [08/Dec/2021 15:51:03] "GET / HTTP/1.1" 200 -
+2021-12-08 15:51:03,163 INFO werkzeug Thread-19 : 127.0.0.1 - - [08/Dec/2021 15:51:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 15:51:03,165 INFO werkzeug Thread-20 : 127.0.0.1 - - [08/Dec/2021 15:51:03] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 15:51:03,171 INFO werkzeug Thread-21 : 127.0.0.1 - - [08/Dec/2021 15:51:03] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 16:08:22,003 INFO models Thread-22 : Info level log
+2021-12-08 16:08:22,003 WARNING models Thread-22 : Warning level log
+2021-12-08 16:08:22,008 INFO werkzeug Thread-22 : 127.0.0.1 - - [08/Dec/2021 16:08:22] "GET / HTTP/1.1" 200 -
+2021-12-08 16:08:22,036 INFO werkzeug Thread-24 : 127.0.0.1 - - [08/Dec/2021 16:08:22] "GET /static/logo.jpg HTTP/1.1" 200 -
+2021-12-08 16:08:22,037 INFO werkzeug Thread-23 : 127.0.0.1 - - [08/Dec/2021 16:08:22] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-08 16:08:22,047 INFO werkzeug Thread-25 : 127.0.0.1 - - [08/Dec/2021 16:08:22] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 16:08:30,353 INFO werkzeug MainThread :  * Running on http://127.0.0.1:2317/ (Press CTRL+C to quit)
+2021-12-08 16:08:30,354 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-08 16:08:30,655 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-08 16:08:30,656 INFO werkzeug MainThread :  * Debugger PIN: 888-017-871
+2021-12-08 16:08:32,580 INFO models Thread-2 : Info level log
+2021-12-08 16:08:32,581 WARNING models Thread-2 : Warning level log
+2021-12-08 16:08:32,589 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/Dec/2021 16:08:32] "GET / HTTP/1.1" 200 -
+2021-12-08 16:08:32,615 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Dec/2021 16:08:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 16:08:32,616 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Dec/2021 16:08:32] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:08:52,975 INFO models Thread-5 : Info level log
+2021-12-08 16:08:52,976 WARNING models Thread-5 : Warning level log
+2021-12-08 16:08:53,001 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Dec/2021 16:08:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-12-08 16:08:53,026 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Dec/2021 16:08:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-08 16:08:53,028 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Dec/2021 16:08:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-08 16:08:53,043 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Dec/2021 16:08:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-08 16:08:53,121 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Dec/2021 16:08:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-08 16:09:12,413 INFO models Thread-10 : Info level log
+2021-12-08 16:09:12,414 WARNING models Thread-10 : Warning level log
+2021-12-08 16:09:12,417 INFO werkzeug Thread-10 : 127.0.0.1 - - [08/Dec/2021 16:09:12] "GET / HTTP/1.1" 200 -
+2021-12-08 16:09:12,435 INFO werkzeug Thread-11 : 127.0.0.1 - - [08/Dec/2021 16:09:12] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:11:38,874 INFO models Thread-12 : Info level log
+2021-12-08 16:11:38,874 WARNING models Thread-12 : Warning level log
+2021-12-08 16:11:38,878 INFO werkzeug Thread-12 : 127.0.0.1 - - [08/Dec/2021 16:11:38] "GET / HTTP/1.1" 200 -
+2021-12-08 16:11:38,902 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Dec/2021 16:11:38] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:11:39,543 INFO models Thread-14 : Info level log
+2021-12-08 16:11:39,544 WARNING models Thread-14 : Warning level log
+2021-12-08 16:11:39,545 INFO werkzeug Thread-14 : 127.0.0.1 - - [08/Dec/2021 16:11:39] "GET / HTTP/1.1" 200 -
+2021-12-08 16:11:39,567 INFO werkzeug Thread-15 : 127.0.0.1 - - [08/Dec/2021 16:11:39] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:11:40,020 INFO models Thread-16 : Info level log
+2021-12-08 16:11:40,020 WARNING models Thread-16 : Warning level log
+2021-12-08 16:11:40,021 INFO werkzeug Thread-16 : 127.0.0.1 - - [08/Dec/2021 16:11:40] "GET / HTTP/1.1" 200 -
+2021-12-08 16:11:40,046 INFO werkzeug Thread-17 : 127.0.0.1 - - [08/Dec/2021 16:11:40] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:11:40,177 INFO models Thread-18 : Info level log
+2021-12-08 16:11:40,177 WARNING models Thread-18 : Warning level log
+2021-12-08 16:11:40,177 INFO werkzeug Thread-18 : 127.0.0.1 - - [08/Dec/2021 16:11:40] "GET / HTTP/1.1" 200 -
+2021-12-08 16:11:40,199 INFO werkzeug Thread-19 : 127.0.0.1 - - [08/Dec/2021 16:11:40] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:11:40,327 INFO models Thread-20 : Info level log
+2021-12-08 16:11:40,327 WARNING models Thread-20 : Warning level log
+2021-12-08 16:11:40,328 INFO werkzeug Thread-20 : 127.0.0.1 - - [08/Dec/2021 16:11:40] "GET / HTTP/1.1" 200 -
+2021-12-08 16:11:40,350 INFO werkzeug Thread-21 : 127.0.0.1 - - [08/Dec/2021 16:11:40] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:11:40,569 INFO models Thread-22 : Info level log
+2021-12-08 16:11:40,569 WARNING models Thread-22 : Warning level log
+2021-12-08 16:11:40,571 INFO werkzeug Thread-22 : 127.0.0.1 - - [08/Dec/2021 16:11:40] "GET / HTTP/1.1" 200 -
+2021-12-08 16:11:40,586 INFO werkzeug Thread-23 : 127.0.0.1 - - [08/Dec/2021 16:11:40] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:12:02,718 INFO models Thread-24 : Info level log
+2021-12-08 16:12:02,718 WARNING models Thread-24 : Warning level log
+2021-12-08 16:12:02,722 INFO werkzeug Thread-24 : 127.0.0.1 - - [08/Dec/2021 16:12:02] "GET / HTTP/1.1" 200 -
+2021-12-08 16:12:02,749 INFO werkzeug Thread-25 : 127.0.0.1 - - [08/Dec/2021 16:12:02] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:12:06,008 INFO models Thread-26 : Info level log
+2021-12-08 16:12:06,008 WARNING models Thread-26 : Warning level log
+2021-12-08 16:12:06,009 INFO werkzeug Thread-26 : 127.0.0.1 - - [08/Dec/2021 16:12:06] "GET / HTTP/1.1" 200 -
+2021-12-08 16:12:06,035 INFO werkzeug Thread-27 : 127.0.0.1 - - [08/Dec/2021 16:12:06] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:12:14,656 INFO models Thread-28 : Info level log
+2021-12-08 16:12:14,657 WARNING models Thread-28 : Warning level log
+2021-12-08 16:12:14,658 INFO werkzeug Thread-28 : 127.0.0.1 - - [08/Dec/2021 16:12:14] "GET / HTTP/1.1" 200 -
+2021-12-08 16:12:14,688 INFO werkzeug Thread-29 : 127.0.0.1 - - [08/Dec/2021 16:12:14] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:12:31,712 INFO models Thread-30 : Info level log
+2021-12-08 16:12:31,712 WARNING models Thread-30 : Warning level log
+2021-12-08 16:12:31,716 INFO werkzeug Thread-30 : 127.0.0.1 - - [08/Dec/2021 16:12:31] "GET / HTTP/1.1" 200 -
+2021-12-08 16:12:31,739 INFO werkzeug Thread-31 : 127.0.0.1 - - [08/Dec/2021 16:12:31] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:12:46,358 INFO models Thread-32 : Info level log
+2021-12-08 16:12:46,358 WARNING models Thread-32 : Warning level log
+2021-12-08 16:12:46,362 INFO werkzeug Thread-32 : 127.0.0.1 - - [08/Dec/2021 16:12:46] "GET / HTTP/1.1" 200 -
+2021-12-08 16:12:46,388 INFO werkzeug Thread-33 : 127.0.0.1 - - [08/Dec/2021 16:12:46] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:12:58,108 INFO models Thread-34 : Info level log
+2021-12-08 16:12:58,109 WARNING models Thread-34 : Warning level log
+2021-12-08 16:12:58,113 INFO werkzeug Thread-34 : 127.0.0.1 - - [08/Dec/2021 16:12:58] "GET / HTTP/1.1" 200 -
+2021-12-08 16:12:58,148 INFO werkzeug Thread-35 : 127.0.0.1 - - [08/Dec/2021 16:12:58] "[33mGET /static/static/style.css HTTP/1.1[0m" 404 -
+2021-12-08 16:12:58,151 INFO werkzeug Thread-36 : 127.0.0.1 - - [08/Dec/2021 16:12:58] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:12:58,799 INFO models Thread-37 : Info level log
+2021-12-08 16:12:58,799 WARNING models Thread-37 : Warning level log
+2021-12-08 16:12:58,800 INFO werkzeug Thread-37 : 127.0.0.1 - - [08/Dec/2021 16:12:58] "GET / HTTP/1.1" 200 -
+2021-12-08 16:12:58,839 INFO werkzeug Thread-38 : 127.0.0.1 - - [08/Dec/2021 16:12:58] "[33mGET /static/static/style.css HTTP/1.1[0m" 404 -
+2021-12-08 16:12:58,843 INFO werkzeug Thread-39 : 127.0.0.1 - - [08/Dec/2021 16:12:58] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:12:58,977 INFO models Thread-40 : Info level log
+2021-12-08 16:12:58,977 WARNING models Thread-40 : Warning level log
+2021-12-08 16:12:58,978 INFO werkzeug Thread-40 : 127.0.0.1 - - [08/Dec/2021 16:12:58] "GET / HTTP/1.1" 200 -
+2021-12-08 16:12:59,011 INFO werkzeug Thread-41 : 127.0.0.1 - - [08/Dec/2021 16:12:59] "[33mGET /static/static/style.css HTTP/1.1[0m" 404 -
+2021-12-08 16:12:59,014 INFO werkzeug Thread-42 : 127.0.0.1 - - [08/Dec/2021 16:12:59] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:13:13,411 INFO models Thread-43 : Info level log
+2021-12-08 16:13:13,412 WARNING models Thread-43 : Warning level log
+2021-12-08 16:13:13,416 INFO werkzeug Thread-43 : 127.0.0.1 - - [08/Dec/2021 16:13:13] "GET / HTTP/1.1" 200 -
+2021-12-08 16:13:13,450 INFO werkzeug Thread-44 : 127.0.0.1 - - [08/Dec/2021 16:13:13] "[33mGET /static/static/style.css HTTP/1.1[0m" 404 -
+2021-12-08 16:13:13,453 INFO werkzeug Thread-45 : 127.0.0.1 - - [08/Dec/2021 16:13:13] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:13:24,235 INFO models Thread-46 : Info level log
+2021-12-08 16:13:24,235 WARNING models Thread-46 : Warning level log
+2021-12-08 16:13:24,242 INFO werkzeug Thread-46 : 127.0.0.1 - - [08/Dec/2021 16:13:24] "GET / HTTP/1.1" 200 -
+2021-12-08 16:13:24,273 INFO werkzeug Thread-47 : 127.0.0.1 - - [08/Dec/2021 16:13:24] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:13:24,278 INFO werkzeug Thread-48 : 127.0.0.1 - - [08/Dec/2021 16:13:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 16:13:24,287 INFO werkzeug Thread-49 : 127.0.0.1 - - [08/Dec/2021 16:13:24] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 16:13:45,833 INFO models Thread-50 : Info level log
+2021-12-08 16:13:45,833 WARNING models Thread-50 : Warning level log
+2021-12-08 16:13:45,838 INFO werkzeug Thread-50 : 127.0.0.1 - - [08/Dec/2021 16:13:45] "GET / HTTP/1.1" 200 -
+2021-12-08 16:13:45,889 INFO werkzeug Thread-51 : 127.0.0.1 - - [08/Dec/2021 16:13:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-08 16:13:45,890 INFO werkzeug Thread-52 : 127.0.0.1 - - [08/Dec/2021 16:13:45] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:13:45,903 INFO werkzeug Thread-53 : 127.0.0.1 - - [08/Dec/2021 16:13:45] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 16:13:56,834 INFO werkzeug Thread-54 : 127.0.0.1 - - [08/Dec/2021 16:13:56] "[33mGET /static/static/banner.jpg HTTP/1.1[0m" 404 -
+2021-12-08 16:14:11,587 INFO models Thread-55 : Info level log
+2021-12-08 16:14:11,587 WARNING models Thread-55 : Warning level log
+2021-12-08 16:14:11,588 INFO werkzeug Thread-55 : 127.0.0.1 - - [08/Dec/2021 16:14:11] "GET / HTTP/1.1" 200 -
+2021-12-08 16:14:11,639 INFO werkzeug Thread-56 : 127.0.0.1 - - [08/Dec/2021 16:14:11] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-08 16:14:11,642 INFO werkzeug Thread-57 : 127.0.0.1 - - [08/Dec/2021 16:14:11] "[36mGET /static/logo.jpg HTTP/1.1[0m" 304 -
+2021-12-08 16:14:11,664 INFO werkzeug Thread-58 : 127.0.0.1 - - [08/Dec/2021 16:14:11] "GET /static/banner.jpg HTTP/1.1" 200 -

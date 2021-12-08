@@ -2,7 +2,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Project</title>
-<link rel="stylesheet" href="/static/style.css">
+<!-- <link rel="stylesheet" href="/static/style.css"> -->
+<!-- <link ... href="{{ url_for('static', filename='static/font-awesome.min.css') }}" /> -->
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
@@ -10,7 +12,7 @@
     <section class="header">
         
         <nav>
-            <a href="/templates/index.html"><img src="/images/logo.jpg"></a>
+            <a href="/templates/index.html"><img src="/static/logo.jpg"></a>
             <div class="nav-links" id="navLinks">  
                 <i class="fa fa-close" onclick="hideMenu()"></i>
                 <ul>
