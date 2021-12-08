@@ -9,9 +9,12 @@ from flask import app, request, make_response,Response
 from flask.templating import render_template
 from models import *
 from functools import wraps
+<<<<<<< HEAD
 from flask import Flask, render_template, jsonify, request,redirect,flash,session
 from models import *
 
+=======
+>>>>>>> 4efd5d02509fcfbb17d308b99362591101702aa9
 
 logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
@@ -135,9 +138,24 @@ def loginSucess():
                 return make_response(jsonify({'jwt' : token}), 201)
     return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
 
+<<<<<<< HEAD
 
 
 
+=======
+#creating admin login page
+@app.route('/quiz')
+def quizPage():
+    app.logger.info('Info level log')
+    app.logger.warning('Warning level log')
+    return render_template('quiz.html')
+
+
+@app.route('/dashboard')
+@token_required
+def dashboard(current_user): # http://127.0.0.1:8000/dashboard?jwt=
+    return render_template('dashboard.html', data=current_user)
+>>>>>>> 4efd5d02509fcfbb17d308b99362591101702aa9
 
 @app.errorhandler(werkzeug.exceptions.BadRequest)
 def badRequest(e):
@@ -151,6 +169,7 @@ def notFound(e):
     return "Page not found", 404
 app.register_error_handler(404,notFound )
 
+<<<<<<< HEAD
 
 # Change color of buttons of the questions which are attempted. 
 def setStatus(qlist):
@@ -238,6 +257,8 @@ def result():
 
 
 
+=======
+>>>>>>> 4efd5d02509fcfbb17d308b99362591101702aa9
 #Check for the docs of error https://flask.palletsprojects.com/en/2.0.x/errorhandling/
 #HTTP Codes https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
