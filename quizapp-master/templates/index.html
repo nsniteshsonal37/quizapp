@@ -17,9 +17,9 @@
             <div class="nav-links" id="navLinks">  
                 <i class="fa fa-close" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="./login.html">Login</a></li>
-                    <li><a href="/templates/register.html">Register</a></li>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="{{url_for('loginPage')}}">Login</a></li>
+                    <li><a href="{{url_for('registerPage')}}">Register</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
