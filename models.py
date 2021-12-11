@@ -35,3 +35,9 @@ class questions(db.Model):
     type = db.Column(db.String, nullable=False)
     bcol = db.Column(db.String, nullable=True) 
     marks = db.Column(db.Numeric, nullable=False) 
+
+    class Scores(db.Model):
+    __tablename__ = 'scores'
+    id = db.Column(db.Integer, primary_key = True, unique=True, nullable=False)
+    username = db.Column(db.String(100), unique=False, nullable=False)
+    score = db.Column(db.Integer, nullable=False);
