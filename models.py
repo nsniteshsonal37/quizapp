@@ -36,7 +36,7 @@ class questions(db.Model):
     bcol = db.Column(db.String, nullable=True) 
     marks = db.Column(db.Numeric, nullable=False) 
 
-    class Scores(db.Model):
+   class Scores(db.Model):
     __tablename__ = 'scores'
     id = db.Column(db.Integer, primary_key = True, unique=True, nullable=False)
     username = db.Column(db.String(100), unique=False, nullable=False)
