@@ -242,7 +242,7 @@ def result():
 #HTTP Codes https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 if __name__ == "__main__":
-    app.run(debug=True, port=2317)
+    app.run(debug=True, port=8000)
 
 #logging -> reference https://www.askpython.com/python-modules/flask/flask-logging
 # Five levels of debugging

@@ -341,3 +341,165 @@
 2021-12-09 20:16:33,432 INFO werkzeug Thread-165 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:16:33] "GET / HTTP/1.1" 200 -
 2021-12-09 20:16:33,442 INFO werkzeug Thread-166 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:16:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2021-12-09 20:16:33,678 INFO werkzeug Thread-167 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:16:33] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:18:17,264 INFO models Thread-168 (process_request_thread) : Info level log
+2021-12-09 20:18:17,264 WARNING models Thread-168 (process_request_thread) : Warning level log
+2021-12-09 20:18:17,264 INFO werkzeug Thread-168 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:18:17] "GET / HTTP/1.1" 200 -
+2021-12-09 20:18:17,278 INFO werkzeug Thread-169 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:18:17] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-09 20:18:17,526 INFO werkzeug Thread-170 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:18:17] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:18:17,601 INFO werkzeug Thread-171 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:18:17] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:18:17,601 INFO werkzeug Thread-172 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:18:17] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:19:47,738 INFO models Thread-173 (process_request_thread) : Info level log
+2021-12-09 20:19:47,738 WARNING models Thread-173 (process_request_thread) : Warning level log
+2021-12-09 20:19:47,738 INFO werkzeug Thread-173 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:19:47] "GET / HTTP/1.1" 200 -
+2021-12-09 20:19:47,754 INFO werkzeug Thread-174 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:19:47] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-09 20:19:47,987 INFO werkzeug Thread-175 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:19:47] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:19:48,070 INFO werkzeug Thread-176 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:19:48] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:19:48,070 INFO werkzeug Thread-177 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:19:48] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:21:37,972 INFO models Thread-178 (process_request_thread) : Info level log
+2021-12-09 20:21:37,972 WARNING models Thread-178 (process_request_thread) : Warning level log
+2021-12-09 20:21:37,996 INFO werkzeug Thread-178 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:21:37] "GET / HTTP/1.1" 200 -
+2021-12-09 20:21:38,008 INFO werkzeug Thread-179 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:21:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:21:38,231 INFO werkzeug Thread-180 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:21:38] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:21:38,325 INFO werkzeug Thread-181 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:21:38] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:21:38,325 INFO werkzeug Thread-182 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:21:38] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:22:06,452 INFO models Thread-183 (process_request_thread) : Info level log
+2021-12-09 20:22:06,452 WARNING models Thread-183 (process_request_thread) : Warning level log
+2021-12-09 20:22:06,452 INFO werkzeug Thread-183 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:06] "GET / HTTP/1.1" 200 -
+2021-12-09 20:22:06,467 INFO werkzeug Thread-184 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:22:06,717 INFO werkzeug Thread-185 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:06] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:22:06,786 INFO werkzeug Thread-186 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:06] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:22:06,794 INFO werkzeug Thread-187 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:06] "GET /static/banner2.jpg HTTP/1.1" 200 -
+2021-12-09 20:22:36,642 INFO models Thread-188 (process_request_thread) : Info level log
+2021-12-09 20:22:36,642 WARNING models Thread-188 (process_request_thread) : Warning level log
+2021-12-09 20:22:36,662 INFO werkzeug Thread-188 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:36] "GET / HTTP/1.1" 200 -
+2021-12-09 20:22:36,680 INFO werkzeug Thread-189 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:22:36,895 INFO werkzeug Thread-190 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:36] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:22:36,988 INFO werkzeug Thread-192 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:36] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:22:36,988 INFO werkzeug Thread-191 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:36] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:22:38,995 INFO models Thread-194 (process_request_thread) : Info level log
+2021-12-09 20:22:38,995 WARNING models Thread-194 (process_request_thread) : Warning level log
+2021-12-09 20:22:38,995 INFO werkzeug Thread-194 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:38] "GET / HTTP/1.1" 200 -
+2021-12-09 20:22:39,013 INFO werkzeug Thread-193 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:22:39,262 INFO werkzeug Thread-195 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:39] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:22:41,138 INFO models Thread-196 (process_request_thread) : Info level log
+2021-12-09 20:22:41,138 WARNING models Thread-196 (process_request_thread) : Warning level log
+2021-12-09 20:22:41,138 INFO werkzeug Thread-196 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:41] "GET / HTTP/1.1" 200 -
+2021-12-09 20:22:41,153 INFO werkzeug Thread-197 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:22:41,389 INFO werkzeug Thread-198 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:41] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:22:41,466 INFO werkzeug Thread-199 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:41] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:22:41,466 INFO werkzeug Thread-200 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:41] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:22:45,921 INFO models Thread-201 (process_request_thread) : Info level log
+2021-12-09 20:22:45,921 WARNING models Thread-201 (process_request_thread) : Warning level log
+2021-12-09 20:22:45,929 INFO werkzeug Thread-201 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:45] "GET / HTTP/1.1" 200 -
+2021-12-09 20:22:45,943 INFO werkzeug Thread-202 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:22:46,187 INFO werkzeug Thread-203 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:46] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:22:46,262 INFO werkzeug Thread-205 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:46] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:22:46,262 INFO werkzeug Thread-204 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:22:46] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:26:32,636 INFO models Thread-206 (process_request_thread) : Info level log
+2021-12-09 20:26:32,639 WARNING models Thread-206 (process_request_thread) : Warning level log
+2021-12-09 20:26:32,663 INFO werkzeug Thread-206 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:26:32] "GET / HTTP/1.1" 200 -
+2021-12-09 20:26:32,685 INFO werkzeug Thread-207 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:26:32] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-09 20:26:32,885 INFO werkzeug Thread-208 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:26:32] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:26:33,004 INFO werkzeug Thread-209 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:26:33] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:26:33,004 INFO werkzeug Thread-210 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:26:33] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:26:36,244 INFO models Thread-211 (process_request_thread) : Info level log
+2021-12-09 20:26:36,244 WARNING models Thread-211 (process_request_thread) : Warning level log
+2021-12-09 20:26:36,244 INFO werkzeug Thread-211 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:26:36] "GET / HTTP/1.1" 200 -
+2021-12-09 20:26:36,261 INFO werkzeug Thread-212 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:26:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:26:36,497 INFO werkzeug Thread-213 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:26:36] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:27:13,330 INFO models Thread-214 (process_request_thread) : Info level log
+2021-12-09 20:27:13,330 WARNING models Thread-214 (process_request_thread) : Warning level log
+2021-12-09 20:27:13,330 INFO werkzeug Thread-214 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:13] "GET / HTTP/1.1" 200 -
+2021-12-09 20:27:13,342 INFO werkzeug Thread-215 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:13] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-09 20:27:13,590 INFO werkzeug Thread-216 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:13] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:27:13,665 INFO werkzeug Thread-217 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:13] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:27:13,672 INFO werkzeug Thread-218 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:13] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:27:16,882 INFO models Thread-219 (process_request_thread) : Info level log
+2021-12-09 20:27:16,882 WARNING models Thread-219 (process_request_thread) : Warning level log
+2021-12-09 20:27:16,882 INFO werkzeug Thread-219 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:16] "GET / HTTP/1.1" 200 -
+2021-12-09 20:27:16,898 INFO werkzeug Thread-220 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:27:17,134 INFO werkzeug Thread-221 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:17] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:27:33,075 INFO models Thread-222 (process_request_thread) : Info level log
+2021-12-09 20:27:33,075 WARNING models Thread-222 (process_request_thread) : Warning level log
+2021-12-09 20:27:33,075 INFO werkzeug Thread-222 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:33] "GET / HTTP/1.1" 200 -
+2021-12-09 20:27:33,092 INFO werkzeug Thread-223 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:33] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-09 20:27:33,325 INFO werkzeug Thread-224 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:33] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:27:33,409 INFO werkzeug Thread-225 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:33] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:27:33,409 INFO werkzeug Thread-226 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:33] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:27:35,917 INFO models Thread-227 (process_request_thread) : Info level log
+2021-12-09 20:27:35,917 WARNING models Thread-227 (process_request_thread) : Warning level log
+2021-12-09 20:27:35,917 INFO werkzeug Thread-227 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:35] "GET / HTTP/1.1" 200 -
+2021-12-09 20:27:35,935 INFO werkzeug Thread-228 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:27:36,175 INFO werkzeug Thread-229 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:27:36] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:28:13,221 INFO models Thread-230 (process_request_thread) : Info level log
+2021-12-09 20:28:13,221 WARNING models Thread-230 (process_request_thread) : Warning level log
+2021-12-09 20:28:13,238 INFO werkzeug Thread-230 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:28:13] "GET / HTTP/1.1" 200 -
+2021-12-09 20:28:13,246 INFO werkzeug Thread-231 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:28:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:28:13,474 INFO werkzeug Thread-232 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:28:13] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:28:59,525 INFO models Thread-233 (process_request_thread) : Info level log
+2021-12-09 20:28:59,525 WARNING models Thread-233 (process_request_thread) : Warning level log
+2021-12-09 20:28:59,542 INFO werkzeug Thread-233 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:28:59] "GET / HTTP/1.1" 200 -
+2021-12-09 20:28:59,556 INFO werkzeug Thread-234 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:28:59] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-09 20:28:59,765 INFO werkzeug Thread-235 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:28:59] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:28:59,866 INFO werkzeug Thread-236 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:28:59] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:28:59,866 INFO werkzeug Thread-237 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:28:59] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:29:03,293 INFO models Thread-238 (process_request_thread) : Info level log
+2021-12-09 20:29:03,293 WARNING models Thread-238 (process_request_thread) : Warning level log
+2021-12-09 20:29:03,293 INFO werkzeug Thread-238 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:03] "GET / HTTP/1.1" 200 -
+2021-12-09 20:29:03,309 INFO werkzeug Thread-239 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:29:03,557 INFO werkzeug Thread-240 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:03] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:29:09,209 INFO models Thread-241 (process_request_thread) : Info level log
+2021-12-09 20:29:09,209 WARNING models Thread-241 (process_request_thread) : Warning level log
+2021-12-09 20:29:09,213 INFO werkzeug Thread-241 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:09] "GET / HTTP/1.1" 200 -
+2021-12-09 20:29:09,225 INFO werkzeug Thread-242 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:09] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-09 20:29:09,475 INFO werkzeug Thread-243 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:09] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:29:09,543 INFO werkzeug Thread-245 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:09] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:29:09,543 INFO werkzeug Thread-244 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:09] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:29:10,927 INFO models Thread-246 (process_request_thread) : Info level log
+2021-12-09 20:29:10,927 WARNING models Thread-246 (process_request_thread) : Warning level log
+2021-12-09 20:29:10,927 INFO werkzeug Thread-246 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:10] "GET / HTTP/1.1" 200 -
+2021-12-09 20:29:10,944 INFO werkzeug Thread-247 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:29:11,189 INFO werkzeug Thread-248 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:11] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:29:27,328 INFO models Thread-249 (process_request_thread) : Info level log
+2021-12-09 20:29:27,328 WARNING models Thread-249 (process_request_thread) : Warning level log
+2021-12-09 20:29:27,346 INFO werkzeug Thread-249 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:27] "GET / HTTP/1.1" 200 -
+2021-12-09 20:29:27,362 INFO werkzeug Thread-250 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:27] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-09 20:29:27,579 INFO werkzeug Thread-251 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:27] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:29:27,686 INFO werkzeug Thread-253 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:27] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:29:27,686 INFO werkzeug Thread-252 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:27] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:29:29,611 INFO models Thread-254 (process_request_thread) : Info level log
+2021-12-09 20:29:29,611 WARNING models Thread-254 (process_request_thread) : Warning level log
+2021-12-09 20:29:29,611 INFO werkzeug Thread-254 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:29] "GET / HTTP/1.1" 200 -
+2021-12-09 20:29:29,630 INFO werkzeug Thread-255 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:29:29,878 INFO werkzeug Thread-256 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:29] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:29:44,814 INFO models Thread-257 (process_request_thread) : Info level log
+2021-12-09 20:29:44,814 WARNING models Thread-257 (process_request_thread) : Warning level log
+2021-12-09 20:29:44,830 INFO werkzeug Thread-257 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:44] "GET / HTTP/1.1" 200 -
+2021-12-09 20:29:44,850 INFO werkzeug Thread-258 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:29:45,072 INFO werkzeug Thread-259 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:29:45] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:30:02,120 INFO models Thread-260 (process_request_thread) : Info level log
+2021-12-09 20:30:02,120 WARNING models Thread-260 (process_request_thread) : Warning level log
+2021-12-09 20:30:02,121 INFO werkzeug Thread-260 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:30:02] "GET / HTTP/1.1" 200 -
+2021-12-09 20:30:02,140 INFO werkzeug Thread-261 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:30:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:30:02,457 INFO werkzeug Thread-262 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:30:02] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:30:02,457 INFO werkzeug Thread-263 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:30:02] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:30:02,462 INFO werkzeug Thread-264 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:30:02] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:30:03,832 INFO models Thread-265 (process_request_thread) : Info level log
+2021-12-09 20:30:03,832 WARNING models Thread-265 (process_request_thread) : Warning level log
+2021-12-09 20:30:03,832 INFO werkzeug Thread-265 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:30:03] "GET /login/ HTTP/1.1" 200 -
+2021-12-09 20:30:03,857 INFO werkzeug Thread-266 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:30:03] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:32:03,145 INFO models Thread-268 (process_request_thread) : Info level log
+2021-12-09 20:32:03,145 WARNING models Thread-268 (process_request_thread) : Warning level log
+2021-12-09 20:32:03,154 INFO werkzeug Thread-268 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:32:03] "GET / HTTP/1.1" 200 -
+2021-12-09 20:32:03,170 INFO werkzeug Thread-269 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:32:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:32:03,395 INFO werkzeug Thread-270 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:32:03] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-09 20:32:03,486 INFO werkzeug Thread-271 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:32:03] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:32:03,486 INFO werkzeug Thread-272 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:32:03] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-09 20:32:04,761 INFO models Thread-273 (process_request_thread) : Info level log
+2021-12-09 20:32:04,761 WARNING models Thread-273 (process_request_thread) : Warning level log
+2021-12-09 20:32:04,761 INFO werkzeug Thread-273 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:32:04] "GET /admin/ HTTP/1.1" 200 -
+2021-12-09 20:32:04,777 INFO werkzeug Thread-274 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:32:04] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2021-12-09 20:34:45,645 INFO models Thread-276 (process_request_thread) : Info level log
+2021-12-09 20:34:45,645 WARNING models Thread-276 (process_request_thread) : Warning level log
+2021-12-09 20:34:45,661 INFO werkzeug Thread-276 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:34:45] "GET /admin/ HTTP/1.1" 200 -
+2021-12-09 20:34:45,677 INFO werkzeug Thread-277 (process_request_thread) : 127.0.0.1 - - [09/Dec/2021 20:34:45] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
