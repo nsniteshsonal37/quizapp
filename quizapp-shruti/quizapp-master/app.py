@@ -93,7 +93,7 @@ def registerSuccess():
         entry = Users(name=name,email=email,password=hashedPassword)
         db.session.add(entry)
         db.session.commit()
-    return render_template('login.html')
+    return make_response(redirect('/login'))
 
 #creating admin login page
 @app.route('/admin/')
@@ -151,8 +151,10 @@ def loginSucess():
                 token = jwt.encode({'user':row.email, 'exp': datetime.utcnow()+timedelta(minutes=15)}, app.config['SECRET_KEY'])
                 token= token.decode('utf-8')
                 print("Token ",token)
-                return make_response(jsonify({'jwt' : token}), 201)
-        return render_template('dashboard.html')
+                # return make_response(jsonify({'jwt' : token}), 201)
+        # return render_template('dashboard.html')
+        return make_response(redirect('/dashboard'))
+
     return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
 
 
@@ -184,12 +186,12 @@ def setStatus(qlist):
             row.bcol='green'  
 
 @app.route('/dashboard')
-@token_required
-def dashboard(current_user): # http://127.0.0.1:8000/dashboard?jwt=def index():
+# @token_required
+def dashboard(): # http://127.0.0.1:8000/dashboard?jwt=def index():
     session['result']=""
     session['answers'] = {}
     subjectList=questions.query.with_entities(questions.subject).distinct()
-    return render_template("index.html",subList=subjectList)  
+    return render_template("subject.html",subList=subjectList)  
 
 @app.route('/quiz', methods=["POST"])
 def quiz(): 

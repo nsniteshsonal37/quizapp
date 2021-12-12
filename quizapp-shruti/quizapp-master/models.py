@@ -27,7 +27,7 @@ class questions(db.Model):
     qid = db.Column(db.Integer, primary_key=True, unique=True, nullable=False)
     subject =db.Column(db.String, nullable=False)
     question =db.Column(db.String, nullable=False)
-    option1 = db.Column(db.String, nullable=True)
+    option1 = db.Column(db.String, nullable=False)
     option2 = db.Column(db.String, nullable=True)
     option3 = db.Column(db.String, nullable=True)
     option4 = db.Column(db.String, nullable=True)

@@ -1,9 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Dashboard</title>
-    </head>
-    <body>
-        <h1> Welcome {{ data }} </h1>
-    </body>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="/static/jsfile.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}" />
+	<title>User Dashboard!</title>
+    
+
+</head>
+<body style="background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
+background-repeat: no-repeat;
+background-size: cover;"}>
+	<div class="container">
+	<div class="row" style="border-style:solid;padding:20px; text-align: right;background-color: white;border-radius: 25px;">
+		<b>Quiz for :{{quest.subject}} </b>
+	</div>
+	<div class="row" style="border:groove;background-color: white;border-radius: 25px;">
+	<div class="col-sm-2" style="border-right:groove;">
+        <B> Your Questions</B><br><br>
+        {% for q in questList %}
+            <a href="{{url_for('showQuest',subject=q.subject,qid=q.qid)}}"><button value={{q.qid}} id={{q.qid}}  style="margin:2px; width:40px; height:40px;background-color: {{q.bcol}};" >{{loop.index}}</button></a>
+        {% endfor %}	
+        
+        <br><br><a href="{{url_for('result')}}"><button>Display Result</button></a>
+	</div>
+	<div class="col-sm" style="margin:10%;">
+        {% if quest.type == 'mcq' %}
+        <form method="POST" action={{url_for('saveAns')}}>
+            <div class="question"><h5><input type="text" name="qid" value={{quest.qid}} style="border-style:none; width:20px"> <input type="text" name="subject" value='{{quest.subject}}' style="border-style:none"> </h5></div>
+            <div class="qst">{{quest.question}}</div>
+                <div class="opt"><input type="radio" name="answer" value="1"> {{quest.option1}}</div>
+                <div class="opt"><input type="radio" name="answer" value="2"> {{quest.option2}}</div>
+                <div class="opt"><input type="radio" name="answer" value="3"> {{quest.option3}}</div>
+                <div class="opt"><input type="radio" name="answer" value="4"> {{quest.option4}}</div>
+                <input class="submit" type="submit" value="Save Answer"/>
+            </form>
+        {%elif quest.type == 'multiple'%}
+        <form method="POST" action={{url_for('saveAns')}}>
+            <div class="question"><h5><input type="text" name="qid" value={{quest.qid}} style="border-style:none; width:20px"> <input type="text" name="subject" value='{{quest.subject}}' style="border-style:none"> </h5></div>
+            <div class="qst">{{quest.question}}</div>
+                <div class="opt"><input type="checkbox" name="answer" value="1"> {{quest.option1}}</div>
+                <div class="opt"><input type="checkbox" name="answer" value="2"> {{quest.option2}}</div>
+                <div class="opt"><input type="checkbox" name="answer" value="3"> {{quest.option3}}</div>
+                <div class="opt"><input type="checkbox" name="answer" value="4"> {{quest.option4}}</div>
+                <input type="submit" class="submit" value="Save Answer"/>
+            </form>
+        {%elif quest.type == 'fill' %}
+        <form method="POST" action={{url_for('saveAns')}}>
+            <div class="question"><h5><input type="text" name="qid" value={{quest.qid}} style="border-style:none; width:20px"> <input type="text" name="subject" value='{{quest.subject}}' style="border-style:none"> </h5></div>
+            <div class="qst">{{quest.question}}</div>
+                <div class="opt"><input type="text" name="answer"></div>
+                <input class="submit" type="submit" value="Save Answer"/>
+            </form>
+        {%elif quest.type == 'tf' %}
+        <form method="POST" action={{url_for('saveAns')}}>
+            <div class="question"><h5><input type="text" name="qid" value={{quest.qid}} style="border-style:none; width:20px"> <input type="text" name="subject" value='{{quest.subject}}' style="border-style:none"> </h5></div>
+            <div class="qst">{{quest.question}}</div>
+                <div class="opt"><input type="radio" name="answer" value="1"> {{quest.option1}}</div>
+                <div class="opt"><input type="radio" name="answer" value="2"> {{quest.option2}}</div>
+                <input class="submit" type="submit" value="Save Answer"/>
+            </form>
+        {%endif%}
+	</div>
+	</div>
+	</div>
+    <script>
+        function colorbtn(bid) {
+          document.getElementByid(bid).background-color = "green";
+        }
+        </script>
+</body>
 </html>
