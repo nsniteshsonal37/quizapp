@@ -1,0 +1,364 @@
+2021-12-12 18:23:37,325 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-12 18:23:37,876 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-12 18:23:37,879 INFO werkzeug MainThread :  * Debugger PIN: 136-925-437
+2021-12-12 18:23:37,943 INFO werkzeug Thread-1 (inner) :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-12 18:31:32,670 INFO models Thread-2 (process_request_thread) : Info level log
+2021-12-12 18:31:32,670 WARNING models Thread-2 (process_request_thread) : Warning level log
+2021-12-12 18:31:32,680 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:32] "GET / HTTP/1.1" 200 -
+2021-12-12 18:31:32,980 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:32] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-12 18:31:32,996 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:32] "GET /static/logo.gif HTTP/1.1" 200 -
+2021-12-12 18:31:33,005 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:33] "GET /static/banner.jpg HTTP/1.1" 200 -
+2021-12-12 18:31:33,305 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:33] "GET /static/banner2.jpg HTTP/1.1" 200 -
+2021-12-12 18:31:33,312 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-12-12 18:31:35,249 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:35] "GET /register/ HTTP/1.1" 200 -
+2021-12-12 18:31:35,508 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:35] "GET /static/register_style.css HTTP/1.1" 200 -
+2021-12-12 18:31:51,715 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:51] "[32mPOST /registersuccess HTTP/1.1[0m" 302 -
+2021-12-12 18:31:52,037 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:52] "[32mGET /login HTTP/1.1[0m" 308 -
+2021-12-12 18:31:52,287 INFO models Thread-12 (process_request_thread) : Info level log
+2021-12-12 18:31:52,287 WARNING models Thread-12 (process_request_thread) : Warning level log
+2021-12-12 18:31:52,292 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:52] "GET /login/ HTTP/1.1" 200 -
+2021-12-12 18:31:52,348 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:52] "GET /static/login_style.css HTTP/1.1" 200 -
+2021-12-12 18:31:58,723 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:58] "[32mPOST /loginsuccess HTTP/1.1[0m" 302 -
+2021-12-12 18:31:59,046 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:59] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 18:31:59,294 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:31:59] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:00,589 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:00] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 18:32:00,918 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:00] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:00,921 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:00] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:32:01,183 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:01] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:05,128 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:05] "GET /showQuest/OS%2C2 HTTP/1.1" 200 -
+2021-12-12 18:32:05,455 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:05] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:05,458 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:05] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:32:05,718 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:05] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:06,942 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:06] "GET /showQuest/OS%2C3 HTTP/1.1" 200 -
+2021-12-12 18:32:07,276 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:07] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:07,278 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:07] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:32:07,527 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:07] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:10,583 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:10] "[35m[1mPOST /saveAns HTTP/1.1[0m" 500 -
+2021-12-12 18:32:10,932 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:10] "GET /saveAns?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-12 18:32:10,943 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:10] "GET /saveAns?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-12 18:32:11,189 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:11] "GET /saveAns?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-12 18:32:11,273 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:11] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:32:11,278 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:11] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:32:19,256 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:19] "GET /result HTTP/1.1" 200 -
+2021-12-12 18:32:24,410 INFO models Thread-36 (process_request_thread) : Info level log
+2021-12-12 18:32:24,410 WARNING models Thread-36 (process_request_thread) : Warning level log
+2021-12-12 18:32:24,411 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:24] "GET / HTTP/1.1" 200 -
+2021-12-12 18:32:24,744 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-12 18:32:24,745 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:24] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-12 18:32:25,010 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:25] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-12 18:32:25,055 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:25] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-12 18:32:31,771 INFO models Thread-41 (process_request_thread) : Info level log
+2021-12-12 18:32:31,771 WARNING models Thread-41 (process_request_thread) : Warning level log
+2021-12-12 18:32:31,772 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:31] "GET /login/ HTTP/1.1" 200 -
+2021-12-12 18:32:32,103 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:32] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2021-12-12 18:32:38,080 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:38] "[32mPOST /loginsuccess HTTP/1.1[0m" 302 -
+2021-12-12 18:32:38,395 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:38] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 18:32:38,656 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:38] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:40,996 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:40] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 18:32:41,326 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:41] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:41,329 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:41] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:32:41,590 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:41] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:50,148 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:50] "[35m[1mPOST /saveAns HTTP/1.1[0m" 500 -
+2021-12-12 18:32:50,472 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:50] "GET /saveAns?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-12 18:32:50,474 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:50] "GET /saveAns?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-12 18:32:50,736 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:50] "GET /saveAns?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-12 18:32:50,798 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:50] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:32:50,804 INFO werkzeug Thread-55 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:50] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:32:55,295 INFO werkzeug Thread-56 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:55] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 18:32:55,538 INFO werkzeug Thread-57 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:55] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:32:55,619 INFO werkzeug Thread-58 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:55] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:32:55,623 INFO werkzeug Thread-59 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:32:55] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:34:20,393 INFO werkzeug Thread-60 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:34:20] "[35m[1mPOST /saveAns HTTP/1.1[0m" 500 -
+2021-12-12 18:34:20,647 INFO werkzeug Thread-61 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:34:20] "GET /saveAns?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-12 18:34:20,709 INFO werkzeug Thread-62 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:34:20] "GET /saveAns?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-12 18:34:20,718 INFO werkzeug Thread-63 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:34:20] "GET /saveAns?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-12 18:34:21,037 INFO werkzeug Thread-64 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:34:21] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:34:21,284 INFO werkzeug Thread-65 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:34:21] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:37:27,976 INFO werkzeug Thread-67 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:27] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 18:37:28,963 INFO werkzeug Thread-68 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:28] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 18:37:29,290 INFO werkzeug Thread-69 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:29] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:37:29,292 INFO werkzeug Thread-70 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:29] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:37:29,539 INFO werkzeug Thread-71 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:29] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:37:33,098 INFO werkzeug Thread-72 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:33] "GET /showQuest/OS%2C3 HTTP/1.1" 200 -
+2021-12-12 18:37:33,414 INFO werkzeug Thread-73 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:33] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:37:33,417 INFO werkzeug Thread-74 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:33] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:37:33,674 INFO werkzeug Thread-75 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:33] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:37:35,727 INFO werkzeug Thread-76 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:35] "[35m[1mPOST /saveAns HTTP/1.1[0m" 500 -
+2021-12-12 18:37:36,053 INFO werkzeug Thread-77 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:36] "GET /saveAns?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-12 18:37:36,054 INFO werkzeug Thread-78 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:36] "GET /saveAns?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-12 18:37:36,299 INFO werkzeug Thread-79 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:36] "GET /saveAns?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-12 18:37:36,378 INFO werkzeug Thread-80 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:36] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:37:36,388 INFO werkzeug Thread-81 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:37:36] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:43:14,874 INFO werkzeug Thread-83 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:14] "[31m[1mGET /saveAns HTTP/1.1[0m" 405 -
+2021-12-12 18:43:21,296 INFO werkzeug Thread-84 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:21] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 18:43:21,614 INFO werkzeug Thread-85 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:21] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 18:43:22,622 INFO werkzeug Thread-86 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:22] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 18:43:22,943 INFO werkzeug Thread-87 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:22] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:43:22,945 INFO werkzeug Thread-88 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:22] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:43:23,194 INFO werkzeug Thread-89 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:23] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:43:24,053 INFO werkzeug Thread-90 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:24] "GET /showQuest/OS%2C2 HTTP/1.1" 200 -
+2021-12-12 18:43:24,375 INFO werkzeug Thread-91 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:24] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:43:24,377 INFO werkzeug Thread-92 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:24] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:43:24,620 INFO werkzeug Thread-93 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:24] "[33mGET /static/dashboard.css HTTP/1.1[0m" 404 -
+2021-12-12 18:43:25,575 INFO werkzeug Thread-94 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:25] "[35m[1mPOST /saveAns HTTP/1.1[0m" 500 -
+2021-12-12 18:43:25,898 INFO werkzeug Thread-95 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:25] "GET /saveAns?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-12 18:43:25,900 INFO werkzeug Thread-96 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:25] "GET /saveAns?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-12 18:43:26,155 INFO werkzeug Thread-97 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:26] "GET /saveAns?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-12 18:43:26,214 INFO werkzeug Thread-98 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:26] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:43:26,219 INFO werkzeug Thread-99 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:26] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:43:28,885 INFO werkzeug Thread-100 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:43:28] "GET /result HTTP/1.1" 200 -
+2021-12-12 18:57:22,210 INFO models Thread-102 (process_request_thread) : Info level log
+2021-12-12 18:57:22,210 WARNING models Thread-102 (process_request_thread) : Warning level log
+2021-12-12 18:57:22,212 INFO werkzeug Thread-102 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:22] "GET / HTTP/1.1" 200 -
+2021-12-12 18:57:22,258 INFO werkzeug Thread-103 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:22] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-12 18:57:22,475 INFO werkzeug Thread-104 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:22] "GET /static/logo.gif HTTP/1.1" 200 -
+2021-12-12 18:57:22,591 INFO werkzeug Thread-105 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:22] "GET /static/banner.jpg HTTP/1.1" 200 -
+2021-12-12 18:57:22,592 INFO werkzeug Thread-106 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:22] "GET /static/banner2.jpg HTTP/1.1" 200 -
+2021-12-12 18:57:22,911 INFO werkzeug Thread-107 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-12-12 18:57:29,291 INFO models Thread-108 (process_request_thread) : Info level log
+2021-12-12 18:57:29,291 WARNING models Thread-108 (process_request_thread) : Warning level log
+2021-12-12 18:57:29,292 INFO werkzeug Thread-108 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:29] "GET /login/ HTTP/1.1" 200 -
+2021-12-12 18:57:29,605 INFO werkzeug Thread-109 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:29] "GET /static/login_style.css HTTP/1.1" 200 -
+2021-12-12 18:57:37,038 INFO werkzeug Thread-110 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:37] "[32mPOST /loginsuccess HTTP/1.1[0m" 302 -
+2021-12-12 18:57:37,045 INFO werkzeug Thread-111 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:37] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 18:57:37,300 INFO werkzeug Thread-112 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:37] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 18:57:44,442 INFO werkzeug Thread-113 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:44] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 18:57:44,465 INFO werkzeug Thread-114 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:44] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:57:44,700 INFO werkzeug Thread-115 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:44] "GET /static/dashboard.css HTTP/1.1" 200 -
+2021-12-12 18:57:52,181 INFO werkzeug Thread-116 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:52] "[35m[1mPOST /saveAns HTTP/1.1[0m" 500 -
+2021-12-12 18:57:52,205 INFO werkzeug Thread-117 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:52] "GET /saveAns?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-12 18:57:52,427 INFO werkzeug Thread-118 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:52] "GET /saveAns?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-12 18:57:52,755 INFO werkzeug Thread-119 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:52] "GET /saveAns?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-12 18:57:52,758 INFO werkzeug Thread-120 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:52] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:57:53,019 INFO werkzeug Thread-121 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:53] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 18:57:56,774 INFO werkzeug Thread-122 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:56] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 18:57:56,793 INFO werkzeug Thread-123 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:56] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 18:57:57,099 INFO werkzeug Thread-124 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:57:57] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 18:59:18,191 INFO werkzeug Thread-125 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:59:18] "GET /result HTTP/1.1" 200 -
+2021-12-12 18:59:19,585 INFO werkzeug Thread-126 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:59:19] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 18:59:19,609 INFO werkzeug Thread-127 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 18:59:19] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:00:28,851 INFO werkzeug Thread-128 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:00:28] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:00:28,866 INFO werkzeug Thread-129 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:00:28] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:00:30,107 INFO werkzeug Thread-130 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:00:30] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:00:30,387 INFO werkzeug Thread-131 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:00:30] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:00:30,433 INFO werkzeug Thread-132 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:00:30] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:01:32,259 INFO werkzeug Thread-133 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:01:32] "[31m[1mGET /quiz HTTP/1.1[0m" 405 -
+2021-12-12 19:01:34,564 INFO werkzeug Thread-134 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:01:34] "[31m[1mGET /quiz HTTP/1.1[0m" 405 -
+2021-12-12 19:01:40,890 INFO werkzeug Thread-135 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:01:40] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:01:41,197 INFO werkzeug Thread-136 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:01:41] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:01:42,562 INFO werkzeug Thread-137 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:01:42] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:01:42,591 INFO werkzeug Thread-138 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:01:42] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:01:42,771 INFO werkzeug Thread-139 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:01:42] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:04:07,769 INFO werkzeug Thread-140 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:04:07] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:04:07,780 INFO werkzeug Thread-141 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:04:07] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:04:44,310 INFO werkzeug Thread-142 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:04:44] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:04:44,605 INFO werkzeug Thread-143 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:04:44] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:05:35,090 INFO werkzeug Thread-144 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:05:35] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:05:35,104 INFO werkzeug Thread-145 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:05:35] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:07:09,592 INFO werkzeug Thread-147 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:07:09] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:07:09,613 INFO werkzeug Thread-148 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:07:09] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:07:09,835 INFO werkzeug Thread-149 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:07:09] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:07:47,844 INFO werkzeug Thread-150 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:07:47] "GET /result HTTP/1.1" 200 -
+2021-12-12 19:07:49,094 INFO werkzeug Thread-151 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:07:49] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:07:49,112 INFO werkzeug Thread-152 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:07:49] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:09:20,367 INFO werkzeug Thread-153 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:09:20] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:09:20,378 INFO werkzeug Thread-154 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:09:20] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:09:45,500 INFO werkzeug Thread-155 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:09:45] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:09:45,793 INFO werkzeug Thread-156 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:09:45] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:10:15,805 INFO werkzeug Thread-157 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:10:15] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:10:15,817 INFO werkzeug Thread-158 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:10:15] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:12:51,082 INFO werkzeug Thread-160 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:12:51] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:12:51,093 INFO werkzeug Thread-161 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:12:51] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:13:17,027 INFO werkzeug Thread-162 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:13:17] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:13:17,319 INFO werkzeug Thread-163 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:13:17] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:15:13,974 INFO werkzeug Thread-164 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:15:13] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:15:13,985 INFO werkzeug Thread-165 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:15:13] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:17:37,341 INFO werkzeug Thread-167 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:17:37] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:17:37,356 INFO werkzeug Thread-168 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:17:37] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:20:26,384 INFO werkzeug Thread-170 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:26] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:20:26,396 INFO werkzeug Thread-171 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:26] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:20:27,774 INFO werkzeug Thread-172 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:27] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:20:28,073 INFO werkzeug Thread-173 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:28] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:20:44,083 INFO werkzeug Thread-174 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:44] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:20:44,095 INFO werkzeug Thread-175 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:44] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:20:45,678 INFO werkzeug Thread-176 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:45] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:20:45,988 INFO werkzeug Thread-177 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:45] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:20:55,675 INFO werkzeug Thread-178 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:55] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:20:55,689 INFO werkzeug Thread-179 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:20:55] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:21:05,098 INFO werkzeug Thread-180 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:21:05] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:21:05,408 INFO werkzeug Thread-181 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:21:05] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:21:16,211 INFO werkzeug Thread-182 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:21:16] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:21:16,224 INFO werkzeug Thread-183 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:21:16] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:21:26,401 INFO werkzeug Thread-184 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:21:26] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:21:26,707 INFO werkzeug Thread-185 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:21:26] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:22:04,936 INFO werkzeug Thread-186 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:22:04] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:22:04,947 INFO werkzeug Thread-187 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:22:04] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:23:08,573 INFO werkzeug Thread-189 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:23:08] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:23:08,586 INFO werkzeug Thread-190 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:23:08] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:23:21,376 INFO werkzeug Thread-191 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:23:21] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:24:30,966 INFO werkzeug Thread-192 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:24:30] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:24:30,979 INFO werkzeug Thread-193 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:24:30] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:24:41,655 INFO werkzeug Thread-194 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:24:41] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:24:41,964 INFO werkzeug Thread-195 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:24:41] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:24:41,979 INFO werkzeug Thread-196 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:24:41] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:26:23,679 INFO werkzeug Thread-197 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:26:23] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:26:23,691 INFO werkzeug Thread-198 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:26:23] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:26:23,902 INFO werkzeug Thread-199 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:26:23] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:27:17,424 INFO werkzeug Thread-200 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:17] "[31m[1mGET /quiz HTTP/1.1[0m" 405 -
+2021-12-12 19:27:22,536 INFO werkzeug Thread-201 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:22] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:27:22,552 INFO werkzeug Thread-202 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:22] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:27:25,162 INFO werkzeug Thread-203 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:25] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:27:25,179 INFO werkzeug Thread-204 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:25] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:27:25,383 INFO werkzeug Thread-205 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:25] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:27:25,694 INFO werkzeug Thread-206 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:25] "GET /static/quiz.jpeg HTTP/1.1" 200 -
+2021-12-12 19:27:32,778 INFO werkzeug Thread-207 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:32] "GET /result HTTP/1.1" 200 -
+2021-12-12 19:27:34,250 INFO werkzeug Thread-208 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:34] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:27:34,548 INFO werkzeug Thread-209 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:34] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:27:36,955 INFO werkzeug Thread-210 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:36] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:27:36,978 INFO werkzeug Thread-211 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:36] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:27:37,200 INFO werkzeug Thread-212 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:37] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:27:40,990 INFO werkzeug Thread-213 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:40] "[35m[1mPOST /saveAns HTTP/1.1[0m" 500 -
+2021-12-12 19:27:41,005 INFO werkzeug Thread-214 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:41] "GET /saveAns?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-12 19:27:41,030 ERROR werkzeug Thread-213 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "C:\Python310\Lib\site-packages\werkzeug\debug\__init__.py", line 309, in debug_application
+    app_iter = self.app(environ, start_response)
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\shrut\Downloads\quizapp-fixauth1\quizapp-fixauth1\quizapp-shruti\quizapp-master\app.py", line 233, in saveAns
+    res= res+qid+','+ans+','
+TypeError: can only concatenate str (not "NoneType") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python310\Lib\site-packages\werkzeug\serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "C:\Python310\Lib\site-packages\werkzeug\serving.py", line 310, in execute
+    for data in application_iter:
+  File "C:\Python310\Lib\site-packages\werkzeug\debug\__init__.py", line 351, in debug_application
+    traceback.log(environ["wsgi.errors"])
+  File "C:\Python310\Lib\site-packages\werkzeug\debug\tbtools.py", line 267, in log
+    logfile.write(tb)
+OSError: [Errno 22] Invalid argument
+2021-12-12 19:27:41,225 INFO werkzeug Thread-215 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:41] "GET /saveAns?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-12 19:27:41,536 INFO werkzeug Thread-216 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:41] "GET /saveAns?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-12 19:27:41,541 INFO werkzeug Thread-217 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:41] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 19:27:45,558 INFO werkzeug Thread-218 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:45] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:27:45,581 INFO werkzeug Thread-219 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:45] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:27:45,896 INFO werkzeug Thread-220 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:45] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:27:46,207 INFO werkzeug Thread-221 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:46] "[36mGET /static/quiz.jpeg HTTP/1.1[0m" 304 -
+2021-12-12 19:27:47,305 INFO werkzeug Thread-222 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:47] "GET /showQuest/DSA%2C5 HTTP/1.1" 200 -
+2021-12-12 19:27:47,595 INFO werkzeug Thread-223 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:47] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:27:47,625 INFO werkzeug Thread-224 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:47] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:27:48,287 INFO werkzeug Thread-225 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:48] "GET /showQuest/DSA%2C4 HTTP/1.1" 200 -
+2021-12-12 19:27:48,314 INFO werkzeug Thread-226 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:48] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:27:48,546 INFO werkzeug Thread-227 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:27:48] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:28:08,586 INFO werkzeug Thread-228 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:28:08] "GET /result HTTP/1.1" 200 -
+2021-12-12 19:28:11,509 INFO werkzeug Thread-229 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:28:11] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:28:11,536 INFO werkzeug Thread-230 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:28:11] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:28:19,863 INFO werkzeug Thread-231 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:28:19] "GET /showQuest/DSA%2C5 HTTP/1.1" 200 -
+2021-12-12 19:28:22,622 INFO werkzeug Thread-232 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:28:22] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:28:58,838 INFO werkzeug Thread-233 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:28:58] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:28:59,130 INFO werkzeug Thread-234 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:28:59] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:29:40,411 INFO werkzeug Thread-235 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:40] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:29:40,423 INFO werkzeug Thread-236 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:40] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:29:49,268 INFO models Thread-237 (process_request_thread) : Info level log
+2021-12-12 19:29:49,269 WARNING models Thread-237 (process_request_thread) : Warning level log
+2021-12-12 19:29:49,270 INFO werkzeug Thread-237 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:49] "GET / HTTP/1.1" 200 -
+2021-12-12 19:29:49,582 INFO werkzeug Thread-238 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2021-12-12 19:29:49,598 INFO werkzeug Thread-239 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:49] "[36mGET /static/logo.gif HTTP/1.1[0m" 304 -
+2021-12-12 19:29:49,893 INFO werkzeug Thread-240 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:49] "[36mGET /static/banner.jpg HTTP/1.1[0m" 304 -
+2021-12-12 19:29:49,897 INFO werkzeug Thread-241 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:49] "[36mGET /static/banner2.jpg HTTP/1.1[0m" 304 -
+2021-12-12 19:29:52,278 INFO models Thread-242 (process_request_thread) : Info level log
+2021-12-12 19:29:52,279 WARNING models Thread-242 (process_request_thread) : Warning level log
+2021-12-12 19:29:52,280 INFO werkzeug Thread-242 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:52] "GET /login/ HTTP/1.1" 200 -
+2021-12-12 19:29:52,306 INFO werkzeug Thread-243 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:52] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2021-12-12 19:29:58,545 INFO werkzeug Thread-244 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:58] "[32mPOST /loginsuccess HTTP/1.1[0m" 302 -
+2021-12-12 19:29:58,848 INFO werkzeug Thread-245 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:58] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:29:59,187 INFO werkzeug Thread-246 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:29:59] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:30:49,554 INFO werkzeug Thread-247 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:30:49] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:30:49,856 INFO werkzeug Thread-248 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:30:49] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:30:52,180 INFO werkzeug Thread-249 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:30:52] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:30:52,193 INFO werkzeug Thread-250 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:30:52] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:31:54,408 INFO werkzeug Thread-252 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:31:54] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:31:54,421 INFO werkzeug Thread-253 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:31:54] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:33:05,806 INFO werkzeug Thread-255 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:33:05] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:33:05,821 INFO werkzeug Thread-256 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:33:05] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:33:30,451 INFO werkzeug Thread-257 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:33:30] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:33:30,755 INFO werkzeug Thread-258 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:33:30] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:33:41,302 INFO werkzeug Thread-259 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:33:41] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:33:41,313 INFO werkzeug Thread-260 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:33:41] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:33:51,537 INFO werkzeug Thread-261 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:33:51] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:33:51,837 INFO werkzeug Thread-262 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:33:51] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:34:13,724 INFO werkzeug Thread-263 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:34:13] "GET /dashboard HTTP/1.1" 200 -
+2021-12-12 19:34:13,734 INFO werkzeug Thread-264 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:34:13] "[33mGET /static/adminadd.css HTTP/1.1[0m" 404 -
+2021-12-12 19:34:20,813 INFO werkzeug Thread-265 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:34:20] "POST /quiz HTTP/1.1" 200 -
+2021-12-12 19:34:21,112 INFO werkzeug Thread-266 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:34:21] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:34:21,142 INFO werkzeug Thread-267 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:34:21] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:34:21,456 INFO werkzeug Thread-268 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:34:21] "[36mGET /static/quiz.jpeg HTTP/1.1[0m" 304 -
+2021-12-12 19:37:43,886 INFO werkzeug Thread-270 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:37:43] "GET /showQuest/OS%2C2 HTTP/1.1" 200 -
+2021-12-12 19:37:43,900 INFO werkzeug Thread-271 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:37:43] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:37:44,146 INFO werkzeug Thread-272 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:37:44] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:37:44,459 INFO werkzeug Thread-273 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:37:44] "[36mGET /static/quiz.jpeg HTTP/1.1[0m" 304 -
+2021-12-12 19:40:17,633 INFO werkzeug Thread-275 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:17] "GET /showQuest/OS%2C2 HTTP/1.1" 200 -
+2021-12-12 19:40:17,648 INFO werkzeug Thread-276 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:17] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:40:17,872 INFO werkzeug Thread-277 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:17] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:40:18,199 INFO werkzeug Thread-278 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:18] "[36mGET /static/quiz.jpeg HTTP/1.1[0m" 304 -
+2021-12-12 19:40:21,356 INFO werkzeug Thread-279 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:21] "[35m[1mPOST /saveAns HTTP/1.1[0m" 500 -
+2021-12-12 19:40:21,366 ERROR werkzeug Thread-279 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "C:\Python310\Lib\site-packages\werkzeug\debug\__init__.py", line 309, in debug_application
+    app_iter = self.app(environ, start_response)
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python310\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\shrut\Downloads\quizapp-fixauth1\quizapp-fixauth1\quizapp-shruti\quizapp-master\app.py", line 233, in saveAns
+    res= res+qid+','+ans+','
+TypeError: can only concatenate str (not "NoneType") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python310\Lib\site-packages\werkzeug\serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "C:\Python310\Lib\site-packages\werkzeug\serving.py", line 310, in execute
+    for data in application_iter:
+  File "C:\Python310\Lib\site-packages\werkzeug\debug\__init__.py", line 351, in debug_application
+    traceback.log(environ["wsgi.errors"])
+  File "C:\Python310\Lib\site-packages\werkzeug\debug\tbtools.py", line 267, in log
+    logfile.write(tb)
+OSError: [Errno 22] Invalid argument
+2021-12-12 19:40:21,652 INFO werkzeug Thread-280 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:21] "GET /saveAns?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-12 19:40:21,683 INFO werkzeug Thread-281 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:21] "GET /saveAns?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-12 19:40:21,995 INFO werkzeug Thread-282 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:21] "GET /saveAns?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-12 19:40:21,996 INFO werkzeug Thread-283 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:21] "GET /saveAns?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-12 19:40:27,116 INFO werkzeug Thread-284 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:27] "GET /showQuest/OS%2C2 HTTP/1.1" 200 -
+2021-12-12 19:40:27,131 INFO werkzeug Thread-285 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:27] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:40:27,436 INFO werkzeug Thread-286 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:27] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:40:27,744 INFO werkzeug Thread-287 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:27] "[36mGET /static/quiz.jpeg HTTP/1.1[0m" 304 -
+2021-12-12 19:40:30,499 INFO werkzeug Thread-288 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:30] "GET /showQuest/OS%2C3 HTTP/1.1" 200 -
+2021-12-12 19:40:30,814 INFO werkzeug Thread-289 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:30] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 19:40:30,827 INFO werkzeug Thread-290 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:30] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:40:34,332 INFO werkzeug Thread-291 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:34] "GET /showQuest/OS%2C1 HTTP/1.1" 200 -
+2021-12-12 19:40:34,352 INFO werkzeug Thread-292 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:34] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
+2021-12-12 19:40:34,578 INFO werkzeug Thread-293 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:34] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -

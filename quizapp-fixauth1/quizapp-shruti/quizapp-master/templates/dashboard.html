@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="/static/jsfile.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}" />
+    <title>User Dashboard!</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div style="background-color: bisque;" class="row" id="head">
+            <b style="font-size: xx-large;">Quiz for : {{quest.subject}} </b>
+        </div>
+        <div class="row" style="border:dashed;background-color: white;">
+            <div class="col-sm-2" style="border-right:groove;">
+                <B style="font-size: x-large;width: max-content;"> Your Questions</B><br><br>
+                {% for q in questList %}
+                <a href="{{url_for('showQuest',subject=q.subject,qid=q.qid)}}"><button value={{q.qid}} id={{q.qid}}
+                        style="margin:2px;border-radius: 12px; border-width: 4px; border-color: #8e8a8a; width:40px; 
+    font-size: 20px;
+    font-weight: lighter;
+ height:40px;background-color: {{q.bcol}};">{{loop.index}}</button></a>
+                {% endfor %}
+
+                <br><br><a href="{{url_for('result')}}"><button class="button-54">Submit</button></a>
+            </div>
+            <div class="col-sm" style="margin:10%;">
+                {% if quest.type == 'mcq' %}
+                <form method="POST" action={{url_for('saveAns')}} class="question-form">
+                    <!-- <div class="question">
+                        <p>
+                        <p style="display: inline-block; font-weight: 700;">{{quest.qid}}. {{quest.question}}</p>
+                        </p>
+                    </div> -->
+                    <!-- style="display: inline-block; font-weight: 700;" -->
+                    <div class="question">
+                        <h5><input type="text" disabled name="qid" value={{quest.qid}} style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
+                            <input type="text" disabled name="subject" value='{{quest.question}}' style="border-style:none;display: inline-block; font-weight: 700;"> </h5>
+                    </div>
+
+                    <div class="opt"><input type="radio" name="answer" value="1"> {{quest.option1}}</div>
+                    <div class="opt"><input type="radio" name="answer" value="2"> {{quest.option2}}</div>
+                    <div class="opt"><input type="radio" name="answer" value="3"> {{quest.option3}}</div>
+                    <div class="opt"><input type="radio" name="answer" value="4"> {{quest.option4}}</div>
+                    <button class="button-10" type="submit">Save Answer</button>
+                </form>
+                {%elif quest.type == 'multiple'%}
+                <form method="POST" action={{url_for('saveAns')}} class="question-form">
+                    <div class="question">
+                        <h5><input type="text" disabled name="qid" value={{quest.qid}} style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
+                            <input type="text" disabled name="subject" value='{{quest.question}}' style="border-style:none;display: inline-block; font-weight: 700;"> </h5>
+                    </div>
+                    <div class="opt"><input type="checkbox" name="answer" value="1"> {{quest.option1}}</div>
+                    <div class="opt"><input type="checkbox" name="answer" value="2"> {{quest.option2}}</div>
+                    <div class="opt"><input type="checkbox" name="answer" value="3"> {{quest.option3}}</div>
+                    <div class="opt"><input type="checkbox" name="answer" value="4"> {{quest.option4}}</div>
+                    <button class="button-10" type="submit">Save Answer</button>
+                </form>
+                {%elif quest.type == 'fill' %}
+                <form method="POST" action={{url_for('saveAns')}} class="question-form">
+                    <div class="question">
+                        <h5><input type="text" disabled name="qid" value={{quest.qid}} style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
+                            <input type="text" disabled name="subject" value='{{quest.question}}' style="border-style:none;display: inline-block; font-weight: 700;"> </h5>
+                    </div>
+                    <div class="opt"><input type="text" name="answer"></div>
+                    <button class="button-10" type="submit">Save Answer</button>
+                </form>
+                {%elif quest.type == 'tf' %}
+                <form method="POST" action={{url_for('saveAns')}} class="question-form">
+                    <div class="question">
+                        <h5><input type="text" disabled name="qid" value={{quest.qid}} style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
+                            <input type="text" disabled name="subject" value='{{quest.question}}' style="border-style:none;display: inline-block; font-weight: 700;"> </h5>
+                    </div>
+                    <div class="opt"><input type="radio" name="answer" value="1"> {{quest.option1}}</div>
+                    <div class="opt"><input type="radio" name="answer" value="2"> {{quest.option2}}</div>
+                    <button class="button-10" type="submit">Save Answer</button>
+                </form>
+                {%endif%}
+            </div>
+        </div>
+    </div>
+    <script>
+        function colorbtn(bid) {
+            document.getElementByid(bid).style.backgroundColor = 'green';
+        }
+    </script>
+</body>
+
+</html>
