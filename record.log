@@ -362,3 +362,7 @@ OSError: [Errno 22] Invalid argument
 2021-12-12 19:40:34,332 INFO werkzeug Thread-291 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:34] "GET /showQuest/OS%2C1 HTTP/1.1" 200 -
 2021-12-12 19:40:34,352 INFO werkzeug Thread-292 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:34] "[33mGET /static/jsfile.js HTTP/1.1[0m" 404 -
 2021-12-12 19:40:34,578 INFO werkzeug Thread-293 (process_request_thread) : 127.0.0.1 - - [12/Dec/2021 19:40:34] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2021-12-12 21:07:56,427 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-12 21:07:57,248 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-12 21:07:57,257 INFO werkzeug MainThread :  * Debugger PIN: 136-925-437
+2021-12-12 21:07:57,355 INFO werkzeug Thread-1 (inner) :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
