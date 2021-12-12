@@ -82,7 +82,7 @@ def registerSuccess():
     # app.logger.info('Info level log')
     # app.logger.warning('Warning level log')
     if request.method == "POST":
-        name = request.form.get('username')
+        name = request.form.get('name')
         email = request.form.get('email')
         password = request.form.get('password')
 
