@@ -1,8 +1,40 @@
 <html>
     <head>
-        <title>Add Questions</title>
+        <title>Question Addition</title>
     </head>
     <body>
-        Add Questions goes here.
+        <form class="/addQuestion">
+            <label for="cars">Question Type:</label>
+            <select id="Qtype" name="Qtype">
+              <option value="mcq">MCQ</option>
+              <option value="tf">True/ False</option>
+              <option value="m">Multiple Correct Answers</option>
+              <option value="fitb">Fill in the Blanks</option>
+            </select>
+            <input type="text" placeholder="Question" id="Que" style="display: none;" class="mcq">
+            <input type="text" placeholder="Option 1" id="op1" style="display: none;" class="mcq tf">
+            <input type="text" placeholder="Option 2" id="op2" style="display: none;" class="mcq tf">
+            <input type="text" placeholder="Option 3" id="op3" style="display: none;" class="mcq">
+            <input type="text" placeholder="Option 4" id="op4" style="display: none;" class="mcq">
+            <input type="text" placeholder="Answer" id="ansB"  style="display: none;" class="fillIn">
+            <select id='ansA' style="display: none;" class="mcq">
+            <option value='1'>Option 1</option>
+            <option value='2'>Option 2</option>
+            <option value='3'>Option 3</option>
+            <option value='4'>Option 4</option>    
+            </select>
+            <label for='TrueRadio'>True</label>
+            <input type="radio" value="True" class="tf" id='TrueRadio' name="tf">
+            <label for='TrueRadio'>False</label>
+            <input type="radio" value="False" class="tf" id='FalseRadio' name="tf">
+            <script>
+            var e = document.getElementById("Qtype");
+            var strUser = e.value;
+                if (e==="mcq"){
+                    var x=document.getElementById("Que");
+                    x.style.display("block");
+                }
+                </script>
+        </form>
     </body>
 </html>
