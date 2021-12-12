@@ -63,7 +63,7 @@ def indexPage():
 
 
 #creating login page
-@app.route('/login/')
+@app.route('/login/', methods=['GET', 'POST'])
 def loginPage():
     app.logger.info('Info level log')
     app.logger.warning('Warning level log')
@@ -77,19 +77,19 @@ def registerPage():
     # app.logger.warning('Warning level log')
     return render_template('register.html')
 
-@app.route('/registersuccess', methods=["POST"])
+@app.route('/registersuccess', methods=['POST'])
 def registerSuccess():
     # app.logger.info('Info level log')
     # app.logger.warning('Warning level log')
     if request.method == "POST":
-        name = request.form.get('name')
+        name = request.form.get('username')
         email = request.form.get('email')
         password = request.form.get('password')
 
         #hashing the password before storing
         hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
         hashedPassword = hashedPassword.hexdigest()
-
+        print(name+" "+email+" "+hashedPassword)
         entry = Users(name=name,email=email,password=hashedPassword)
         db.session.add(entry)
         db.session.commit()
@@ -102,12 +102,27 @@ def adminPage():
     app.logger.warning('Warning level log')
     return render_template('admin.html')
 
-#creating admin login page
-@app.route('/admin/register')
-def adminRegPage():
-    app.logger.info('Info level log')
-    app.logger.warning('Warning level log')
-    return render_template('adminReg.html')
+@app.route('/adminsuccess', methods=['GET', 'POST'])
+def adminSucess():
+    if request.method == 'POST':
+        email = request.form.get('email')
+        password = request.form.get('password')
+        #hashing the input and comparing the hash
+        # hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
+        # hashedPassword = hashedPassword.hexdigest()
+        result = db.session.query(Admins).filter(Admins.email==email, Admins.password==password)
+        print(email)
+        print("pass1")
+        print(password)
+        for row in result:
+            if (len(row.email)!=0):
+                print(row.email)
+                token = jwt.encode({'user':row.email, 'exp': datetime.utcnow()+timedelta(minutes=15)}, app.config['SECRET_KEY'])
+                token= token.decode('utf-8')
+                print("Token ",token)
+            return render_template('adminAdd.html')
+    return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
+
 
 #creating admin login page
 @app.route('/admin/add')
@@ -117,7 +132,7 @@ def adminAddPage():
     return render_template('adminAdd.html')
 
 
-@app.route('/loginsuccess', methods=['POST'])
+@app.route('/loginsuccess', methods=['GET', 'POST'])
 def loginSucess():
     if request.method == 'POST':
         email = request.form.get('email')
@@ -126,6 +141,10 @@ def loginSucess():
         hashedPassword = hashlib.md5(bytes(str(password),encoding='utf-8'))
         hashedPassword = hashedPassword.hexdigest()
         result = db.session.query(Users).filter(Users.email==email, Users.password==hashedPassword)
+        print("db pass")
+        print(Users.password)
+        print("Hash")
+        print(hashedPassword)
         for row in result:
             if (len(row.email)!=0):
                 print(row.email)
@@ -133,6 +152,7 @@ def loginSucess():
                 token= token.decode('utf-8')
                 print("Token ",token)
                 return make_response(jsonify({'jwt' : token}), 201)
+        return render_template('dashboard.html')
     return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
 
 

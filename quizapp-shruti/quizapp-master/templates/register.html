@@ -24,7 +24,7 @@
 
       <div class="login-page">
         <div class="form">
-          <form>
+          <form action='/registersuccess' method="POST">
             <lottie-player
               src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"
               background="transparent"
@@ -33,19 +33,16 @@
               loop
               autoplay
             ></lottie-player>
-            <input type="text" placeholder="Full name" />
-            <input type="text" placeholder="email address" />
-            <input type="text" placeholder="Enter username" />
-            <input type="password" id="password" placeholder="set a password" />
+            <input type="text" placeholder="Full name" name='name'/>
+            <input type="text" placeholder="email address" name='email'/>
+            <input type="text" placeholder="Enter username" name='username'/>
+            <input type="password" id="password" placeholder="set a password" name='password'/>
             <span>
               <i class="fas fa-eye" onclick="show()" aria-hidden="true" id="eye"></i>
             </span>
             <br>
             <br>
-          </form>
-
-          <form class="login-form">
-            <a class="fcc-btn" href="{{url_for('loginPage')}}">Submit</a>
+            <button>Submit</button>
           </form>
         </div>
       </div>
