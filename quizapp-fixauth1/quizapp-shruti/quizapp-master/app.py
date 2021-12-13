@@ -160,6 +160,30 @@ def loginSucess():
     return make_response('could not verify', 401, {'WWW-Authenticate':'Basic="Login Required"'})
 
 
+@app.route('/admin/addSuccess', methods=['POST'])
+def addSuccess():
+    # app.logger.info('Info level log')
+    # app.logger.warning('Warning level log')
+    if request.method == "POST":
+        subject=""
+        type= request.form.get('Qtype')
+        question = request.form.get('Que')
+        option1 = request.form.get('opt1')
+        option2 = request.form.get('opt2')
+        if  type=='mcq':
+            option3 = request.form.get('opt3')
+            option4 = request.form.get('opt4')
+            answer = request.form.get('ansA')
+        else:
+            option3 = sqlalchemy.null()
+            option4 = sqlalchemy.null()
+            answer = request.form.get('tf')
+        marks=int('')
+        entry = Users(subject=subject,question=question,option1=option1,option2=option2,option3=option3,option4=option4, answer=answer, type=type,marks=marks)
+        db.session.add(entry)
+        db.session.commit()
+    return make_response(redirect('/login'))
+
 
 
 

@@ -5,11 +5,10 @@
     <body>
         <form class="/addQuestion">
             <label for="cars">Question Type:</label>
-            <select id="Qtype" name="Qtype">
+            <select id="QSel" name="Qtype">
+            <option>Select Question Type</option>  
               <option value="mcq">MCQ</option>
               <option value="tf">True/ False</option>
-              <option value="m">Multiple Correct Answers</option>
-              <option value="fitb">Fill in the Blanks</option>
             </select>
             <input type="text" placeholder="Question" id="Que" style="display: none;" class="mcq">
             <input type="text" placeholder="Option 1" id="op1" style="display: none;" class="mcq tf">
@@ -18,27 +17,38 @@
             <input type="text" placeholder="Option 4" id="op4" style="display: none;" class="mcq">
             <input type="text" placeholder="Answer" id="ansB"  style="display: none;" class="fillIn">
             <select id='ansA' style="display: none;" class="mcq">
+            <option>Select the answer</option>
             <option value='1'>Option 1</option>
             <option value='2'>Option 2</option>
             <option value='3'>Option 3</option>
             <option value='4'>Option 4</option>    
             </select>
-            <label for='TrueRadio'>True</label>
-            <input type="radio" value="True" class="tf" id='TrueRadio' name="tf">
-            <label for='TrueRadio'>False</label>
-            <input type="radio" value="False" class="tf" id='FalseRadio' name="tf">
-            <input type="checkbox" value="1" id='chk1' class="m"><label for='chk1'>Option 1</label>
-            <input type="checkbox" value="2" id='chk2' class="m"><label for='chk2'>Option 2</label>
-            <input type="checkbox" value="3" id='chk3' class="m"><label for='chk3'>Option 3</label>
-            <input type="checkbox" value="4" id='chk4' class="m"><label for='chk4'>Option 4</label>
-            <script>
-            var e = document.getElementById("Qtype");
-            var strUser = e.value;
-                if (e==="mcq"){
-                    var x=document.getElementById("Que");
-                    x.style.display("block");
-                }
-                </script>
+            <label for='TrueRadio' class='tf' style="display: none;">True</label>
+            <input type="radio" value="True" class="tf" id='TrueRadio' name="tf" style="display: none;">
+            <label for='TrueRadio' style="display: none;" class='tf'>False</label>
+            <input type="radio" value="False" class="tf" id='FalseRadio' name="tf" style="display: none;">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+           <script>
+            $(document).ready(function(){
+                $("#QSel").on('change', function(){
+                    if(this.value ==='mcq'){
+                        $(".tf").hide();
+                        $(".mcq").show();
+                    }
+                    else
+                    if(this.value==='tf')
+                    {
+                        $(".mcq").hide();
+                        $(".tf").show();
+                        
+                    }
+                    else{
+                        $(".mcq").hide();
+                        $(".tf").hide(); 
+                    }
+                });
+            });
+            </script>
         </form>
     </body>
 </html>
