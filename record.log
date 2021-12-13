@@ -1,0 +1,29 @@
+2021-12-13 16:54:15,420 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-13 16:54:16,176 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-13 16:54:16,183 INFO werkzeug MainThread :  * Debugger PIN: 136-925-437
+2021-12-13 16:54:16,268 INFO werkzeug Thread-1 (inner) :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-12-13 16:56:22,333 INFO werkzeug MainThread :  * Detected change in 'c:\\Users\\shrut\\Downloads\\quizapp-master\\quizapp-master\\app.py', reloading
+2021-12-13 16:56:22,404 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-13 16:56:23,181 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-13 16:56:23,185 INFO werkzeug MainThread :  * Debugger PIN: 136-925-437
+2021-12-13 16:56:23,282 INFO werkzeug Thread-1 (inner) :  * Running on http://127.0.0.1:8020/ (Press CTRL+C to quit)
+2021-12-13 16:56:31,618 INFO models Thread-2 (process_request_thread) : Info level log
+2021-12-13 16:56:31,618 WARNING models Thread-2 (process_request_thread) : Warning level log
+2021-12-13 16:56:31,631 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:31] "GET / HTTP/1.1" 200 -
+2021-12-13 16:56:31,731 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:31] "GET /static/style.css HTTP/1.1" 200 -
+2021-12-13 16:56:31,880 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:31] "GET /static/logo.gif HTTP/1.1" 200 -
+2021-12-13 16:56:32,058 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:32] "GET /static/banner.jpg HTTP/1.1" 200 -
+2021-12-13 16:56:32,058 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:32] "GET /static/banner2.jpg HTTP/1.1" 200 -
+2021-12-13 16:56:32,374 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-12-13 16:56:33,688 INFO models Thread-8 (process_request_thread) : Info level log
+2021-12-13 16:56:33,688 WARNING models Thread-8 (process_request_thread) : Warning level log
+2021-12-13 16:56:33,695 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:33] "GET /admin/ HTTP/1.1" 200 -
+2021-12-13 16:56:33,996 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:33] "GET /static/login_style.css HTTP/1.1" 200 -
+2021-12-13 16:56:49,435 INFO models Thread-10 (process_request_thread) : Info level log
+2021-12-13 16:56:49,436 WARNING models Thread-10 (process_request_thread) : Warning level log
+2021-12-13 16:56:49,443 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:49] "GET /admin/add HTTP/1.1" 200 -
+2021-12-13 16:56:49,481 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:56:49] "GET /static/add_style.css HTTP/1.1" 200 -
+2021-12-13 16:57:42,824 INFO models Thread-12 (process_request_thread) : Info level log
+2021-12-13 16:57:42,824 WARNING models Thread-12 (process_request_thread) : Warning level log
+2021-12-13 16:57:42,826 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:57:42] "GET /admin/add HTTP/1.1" 200 -
+2021-12-13 16:57:43,144 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [13/Dec/2021 16:57:43] "GET /static/add_style.css HTTP/1.1" 200 -
