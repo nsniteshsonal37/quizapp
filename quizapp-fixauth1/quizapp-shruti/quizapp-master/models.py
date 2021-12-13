@@ -4,6 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///quiz.db"
+app.config["SESSION_PERMANENT"] = True
+
 db = SQLAlchemy(app)
 
 

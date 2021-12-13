@@ -22,6 +22,8 @@ db.session.commit()
 
 app.config['SECRET_KEY'] = 'torfabrik'
 
+session = {}
+session['answers'] = {}
 
 # decorator for verifying the JWT
 def token_required(f):
@@ -177,10 +179,12 @@ app.register_error_handler(404,notFound )
 # Change color of buttons of the questions which are attempted. 
 def setStatus(qlist):
     questionAttempt = {}
+    print(qlist, session['answers'])
 
     for i in session['answers'].keys():
         questionAttempt[i]=session['answers'][i]
  
+    print(qlist, questionAttempt, session['answers'])
     for row in qlist:
         if str(row.qid) in questionAttempt.keys():
             row.bcol='green'  
@@ -218,6 +222,7 @@ def showQuest(subject,qid):
 
     question=questions.query.filter_by(qid=qid).first()
 
+    print("show Quest", session['answers'])
     setStatus(questList)
 
     return render_template("dashboard.html",questList=questList, quest=question)  
@@ -228,16 +233,12 @@ def saveAns():
     qid=request.form.get('qid')
     ans=request.form.get('answer')
     sub=request.form.get('subject')
-
-    res=session['result']
-    res= res+qid+','+ans+','
-    session['result']=res
-    
     #update the question id and its selected answer in session variable result
-
-    session['answers'][qid] = ans
+    if ans != None:
+        session['answers'][qid] = ans
 
     questList=questions.query.filter_by(subject=sub).all()
+    print("Save Ans: ",questList)
     setStatus(questList)
     question=questions.query.filter_by(qid=qid).first()
     return render_template("dashboard.html",questList=questList, quest=question)  
@@ -255,17 +256,11 @@ def result():
             count += 1
             recv_marks += question.marks
 
-    text='You have '+ str(count)+ ' correct questions out of '+ str(len(session['answers']))+ ' questions and marks are' + str(recv_marks) + " out of " + str(session['total_marks']) # set the result statement
+    text='You have '+ str(count)+ ' correct questions out of '+ str(len(session['answers']))+ ' questions and marks are ' + str(recv_marks) + " out of " + str(session['total_marks']) # set the result statement
     return render_template("result.html",txt=text) 
 
 
 
-#Check for the docs of error https://flask.palletsprojects.com/en/2.0.x/errorhandling/
-#HTTP Codes https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-
 if __name__ == "__main__":
     app.run(debug=True, port=8000)
 
-#logging -> reference https://www.askpython.com/python-modules/flask/flask-logging
-# Five levels of debugging
-# debug, info, warning, error, critical

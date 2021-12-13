@@ -31,54 +31,76 @@
             </div>
             <div class="col-sm" style="margin:10%;">
                 {% if quest.type == 'mcq' %}
-                <form method="POST" action={{url_for('saveAns')}} class="question-form">
-                    <!-- <div class="question">
-                        <p>
-                        <p style="display: inline-block; font-weight: 700;">{{quest.qid}}. {{quest.question}}</p>
-                        </p>
-                    </div> -->
-                    <!-- style="display: inline-block; font-weight: 700;" -->
-                    <div class="question">
-                        <h5><input type="text" disabled name="qid" value={{quest.qid}} style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
-                            <input type="text" disabled name="subject" value='{{quest.question}}' style="border-style:none;display: inline-block; font-weight: 700;"> </h5>
+                <form method="POST" action={{url_for('saveAns')}}>
+                    <div style="visibility: hidden;" class="question">
+                        <h5 style="visibility: hidden;">
+                            <input type="text" name="qid" value={{quest.qid}} style="border-style:none; width:20px">
+                            <input type="text" name="subject" value='{{quest.subject}}' style="border-style:none">
+                        </h5>
                     </div>
-
+                  
+                    <div class="qst">{{quest.qid}}. {{quest.question}}</div>
                     <div class="opt"><input type="radio" name="answer" value="1"> {{quest.option1}}</div>
                     <div class="opt"><input type="radio" name="answer" value="2"> {{quest.option2}}</div>
                     <div class="opt"><input type="radio" name="answer" value="3"> {{quest.option3}}</div>
                     <div class="opt"><input type="radio" name="answer" value="4"> {{quest.option4}}</div>
+                    <!-- <input class="submit" type="submit" value="Save Answer" /> -->
                     <button class="button-10" type="submit">Save Answer</button>
+
                 </form>
                 {%elif quest.type == 'multiple'%}
                 <form method="POST" action={{url_for('saveAns')}} class="question-form">
-                    <div class="question">
-                        <h5><input type="text" disabled name="qid" value={{quest.qid}} style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
-                            <input type="text" disabled name="subject" value='{{quest.question}}' style="border-style:none;display: inline-block; font-weight: 700;"> </h5>
+                    <div style="visibility: hidden;" class="question">
+                        <h5 style="visibility: hidden;">
+                            <input type="text"  name="qid" value={{quest.qid}}
+                                style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
+                            <input type="text"  name="subject" value='{{quest.question}}'
+                                style="border-style:none;display: inline-block; font-weight: 700;">
+                        </h5>
                     </div>
+                    <div class="qst">{{quest.qid}}. {{quest.question}}</div>
+
                     <div class="opt"><input type="checkbox" name="answer" value="1"> {{quest.option1}}</div>
                     <div class="opt"><input type="checkbox" name="answer" value="2"> {{quest.option2}}</div>
                     <div class="opt"><input type="checkbox" name="answer" value="3"> {{quest.option3}}</div>
                     <div class="opt"><input type="checkbox" name="answer" value="4"> {{quest.option4}}</div>
                     <button class="button-10" type="submit">Save Answer</button>
+                    <!-- <input class="submit" type="submit" value="Save Answer" /> -->
+
                 </form>
+
                 {%elif quest.type == 'fill' %}
                 <form method="POST" action={{url_for('saveAns')}} class="question-form">
-                    <div class="question">
-                        <h5><input type="text" disabled name="qid" value={{quest.qid}} style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
-                            <input type="text" disabled name="subject" value='{{quest.question}}' style="border-style:none;display: inline-block; font-weight: 700;"> </h5>
+                    <div style="visibility: hidden;" class="question">
+                        <h5 style="visibility: hidden;">
+                            <input type="text"  name="qid" value={{quest.qid}}
+                                style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
+                            <input type="text"  name="subject" value='{{quest.question}}'
+                                style="border-style:none;display: inline-block; font-weight: 700;">
+                        </h5>
                     </div>
+                    <div class="qst">{{quest.qid}}. {{quest.question}}</div>
+
                     <div class="opt"><input type="text" name="answer"></div>
                     <button class="button-10" type="submit">Save Answer</button>
+                    <!-- <input class="submit" type="submit" value="Save Answer" /> -->
+
                 </form>
                 {%elif quest.type == 'tf' %}
                 <form method="POST" action={{url_for('saveAns')}} class="question-form">
-                    <div class="question">
-                        <h5><input type="text" disabled name="qid" value={{quest.qid}} style="border-style:none; width:20px; display: inline-block; font-weight: 700; ">
-                            <input type="text" disabled name="subject" value='{{quest.question}}' style="border-style:none;display: inline-block; font-weight: 700;"> </h5>
+                    <div style="visibility: hidden;" class="question">
+                        <h5 style="visibility: hidden;">
+                            <input type="text" name="qid" value={{quest.qid}} style="border-style:none; width:20px">
+                            <input type="text" name="subject" value='{{quest.subject}}' style="border-style:none">
+                        </h5>
                     </div>
+                  
+                    <div class="qst">{{quest.qid}}. {{quest.question}}</div>
                     <div class="opt"><input type="radio" name="answer" value="1"> {{quest.option1}}</div>
                     <div class="opt"><input type="radio" name="answer" value="2"> {{quest.option2}}</div>
+                     <!-- <input class="submit" type="submit" value="Save Answer" /> -->
                     <button class="button-10" type="submit">Save Answer</button>
+
                 </form>
                 {%endif%}
             </div>
